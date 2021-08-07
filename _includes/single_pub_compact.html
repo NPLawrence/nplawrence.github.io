@@ -1,0 +1,38 @@
+{% assign pub_authors = pub.authors | split: ", " %}
+
+<li class="box box-left-border list-item">
+
+
+  <div class="column">
+    <b class="large pub-title">
+      <a href="{{ pub.url }}">
+        {{ pub.title }}
+      </a>
+    </b>
+
+    <br>
+
+    <span class="pub-authors">
+      {% include pub_authors.html %}
+    </span>
+
+    <br>
+
+    <span class="pub-journal">
+      {% if pub.journal_short %}
+      <i>{{ pub.journal_short }}</i>
+      {% else pub.journal %}
+      <i>{{ pub.journal }}</i>
+      {% endif %} |
+
+    {{ pub.year }} |
+    </span>
+
+    {% include pub_links.html pub=pub %}
+
+    {% if pub.notes %} |
+    <span class="highlight tag is-info is-light">{{ (pub.notes) }}</span>
+    {% endif %}
+
+  </div>
+</li>

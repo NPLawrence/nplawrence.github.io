@@ -1,0 +1,9 @@
+{% include base_path %}
+
+{% assign pubs = site.publications | where:"year", y | sort: "order" | reverse %}
+
+{% for pub in pubs limit:3 %}
+<div>
+  {% include single_pub_compact.html%}
+</div>
+{% endfor %}

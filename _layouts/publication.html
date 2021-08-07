@@ -1,0 +1,91 @@
+---
+layout: archive
+title: Publications
+---
+
+{% assign dais_members = site.profiles %}
+{% assign pub_authors = page.authors | split: ", " %}
+{% assign pub = page %}
+
+<div class="columns is-multiline">
+<!--   <div class="column is-full">
+    <p class="title is-3 has-text-centered very-bold page-title-container"><span class="page-title">UBC DAIS Lab Publication</span></p>
+    <p class="subtitle is-5 has-text-centered"><span>ID #{{ page.order }} - {{page.type | capitalize }} ({{page.year}})</span></p>
+  </div> -->
+
+  <div class="column has-text-centered is-full-mobile is-one-fifth-desktop">
+    <p>
+      {% if page.thumbnail %}
+        <figure class="image" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+          <img itemprop="url" src="{{ site.baseurl }}/assets/thumbnails/{{ page.thumbnail }}">
+        </figure>
+      {% else %}
+        <figure class="image" itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+          <img itemprop="url" src="{{ site.baseurl }}/assets/thumbnails/neural.png">
+        </figure>
+      {% endif %}
+    </p>
+  </div>
+  <div class="column">
+    <article itemscope itemtype="http://schema.org/ScholarlyArticle">
+      <header>
+        <span class="is-sans-serif has-text-darkblue">{{page.type | upcase }} <b>({{page.year}})</b></span>
+        <h1 class="title is-spaced" itemprop="name headline">{{page.title}}</h1>
+        <h2 class="subtitle is-5 has-text-darkblue">
+          {% if page.link %}
+            <a href="{{ page.link }}" target="_blank"><span>{{page.journal}}</span>, <time itemprop="datePublished">{{page.year}}</time></a>
+          {% else %}
+            <span>{{page.journal}}</span>, <time itemprop="date">{{page.year}}</time>
+          {% endif %}
+        </h2>
+        <p class="is-5">
+          {% for author in pub_authors %}
+            {% assign found = site.profiles | where:"pub_name", author | first %}
+            {% if found %}
+              <a href="{{ found.url }}"><span itemprop="author">{{ author }}</span></a>{% unless forloop.last %},{% endunless %}
+            {% else %}
+              {% assign found = site.profiles | where:"title", author | first %}
+              {% if found %}
+                <a href="{{ found.url }}"><span itemprop="author">{{ author }}</span></a>{% unless forloop.last %},{% endunless %}
+              {% else %}
+                <span itemprop="author">{{ author }}</span>{% unless forloop.last %},{% endunless %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </p>
+        <h5>
+          {% include pub_links.html pub=pub %}
+        </h5>
+      </header>
+      {% if page.description %}
+        <p><b>Abstract</b></p>
+        <blockquote>
+          <p itemprop="abstract">{{ page.description }}</p>
+        </blockquote>
+      {% endif %}
+
+      <!-- {% if pub.pdf %}
+        <p><b>Read or Download: <a target="_blank" href="{{ site.baseurl }}/assets/preprints/{{ pub.pdf }}">PDF</a></b></p>
+        <div class="is-hidden-mobile"><object data="{{ site.baseurl }}/assets/preprints/{{ pub.pdf }}" width="100%" height="1000" type="application/pdf"></object></div>
+      {% endif %} -->
+    </article>
+  </div>
+</div>
+
+<hr>
+
+<p class="small is-7"><a href="{{ site.baseurl }}/publications/"><span class="icon"><i class="fa fa-arrow-circle-right"></i></span>DAIS Lab Publications</a></p>
+
+<p>
+  <span>Read More: </span>
+</p>
+<p>
+  {% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+  {% endif %}
+</p>
+<p>
+  {% if page.next.url %}
+    <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+  {% endif %}
+</p>

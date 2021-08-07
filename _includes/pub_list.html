@@ -1,0 +1,32 @@
+{% include base_path %}
+
+{% assign papertypes = site.publications | map: "type" | sort: "year" | uniq | reverse %}
+
+<ol reversed class="list-nostyle list-nomargin" type="1" style="list-style-position: inside;">
+
+	{% for type in papertypes %}
+
+	<li class="nostyle">
+	<div class="archive__subtitle">
+	  {% if type == "paper" %}
+	    <i>Journal Papers</i>
+	  {% elsif type == "conference" %}
+	    <i>Conference Proceedings</i>
+	  {% elsif type == "patent" %}
+	    <i>Patents</i>
+		{% elsif type == "thesis" %}
+			<i>Theses</i>
+	  {% endif %}
+	</div>
+
+		{% assign pubs = site.publications | where:"type", type | sort: "order" | reverse %}
+		<ol reversed class="publist" type="1" style="list-style-position: inside;">
+			{% for pub in pubs %}
+				{% include single_pub.html pub=pub %}
+			{% endfor %}
+		</ol>
+	</li>
+
+	{% endfor %}
+
+</ol>

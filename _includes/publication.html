@@ -1,0 +1,64 @@
+{% include base_path %}
+
+{% if pub.header.teaser %}
+  {% capture teaser %}{{ pub.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if pub.id %}
+  {% assign title = pub.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = pub.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
+      </div>
+    {% endif %}
+
+    <h2 class="archive__item-title" itemprop="headline">
+      {% if pub.link %}
+        <a href="{{ pub.link }}">{{ title }}</a> <a href="{{ base_path }}{{ pub.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% else %}
+        <a href="{{ base_path }}{{ pub.url }}" rel="permalink">{{ title }}</a>
+      {% endif %}
+    </h2>
+
+    {% if pub.read_time %}
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+    {% endif %}
+
+        {% if pub.collection == 'teaching' %}
+          <p> {{ pub.type }}, <i>{{ pub.journal }}</i>, {{ pub.year | default: "1900-01-01" | year: "%Y" }} </p>
+        {% elsif pub.collection == 'publications' %}
+          <p>Published in <i>{{ pub.journal }}</i>, {{ pub.year | default: "1900-01-01" | year: "%Y" }} </p>
+        {% elsif pub.year %}
+         <p class="page__year"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].year_label | default: "Published:" }}</strong> <time yeartime="{{ pub.year | default: "1900-01-01" | year_to_xmlschema }}">{{ pub.year | default: "1900-01-01" | year: "%B %d, %Y" }}</time></p>
+        {% endif %}
+
+    {% if pub.excerpt and site.read_more != 'enabled' %}
+    <p class="archive__item-excerpt" itemprop="description">{{ pub.excerpt | markdownify }}</p>
+    {% elsif pub.excerpt and site.read_more == 'enabled' %}
+    <p class="archive__item-excerpt" itemprop="description"><p>{{ pub.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ pub.url }}" rel="permalink"> Read more</a></strong></p></p>
+    {% endif %}
+
+    {% if pub.citation and pub.external_url %}
+      <p>Recommended citation: {{ pub.citation }} <a href="{{ pub.external_url }}"><u>{{ pub.external_url }}</u></a></p>
+    {% elsif pub.citation %}
+      <p>Recommended citation: {{ pub.citation }} </p>
+    {% elsif pub.external_url %}
+      <p>Download <a href=" {{ pub.external_url }} "><u>here</u></a></p>
+    {% endif %}
+
+  </article>
+</div>
