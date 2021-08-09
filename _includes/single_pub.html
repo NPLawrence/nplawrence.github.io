@@ -8,7 +8,8 @@
 
 
   <b class="large pub-title">
-    <a href="{{ pub.url }}">{{ pub.title }}</a>
+    <!-- <a href="{{ pub.url }}">{{ pub.title }}</a> -->
+    {{ pub.title }}
   </b>
   <br>
   <span class="pub-authors">
@@ -36,5 +37,5 @@
   {% if pub.notes %} |
   <span class="highlight tag is-info is-light">{{ (pub.notes) }}</span>
   {% endif %}
-  
+
 </li>

@@ -1,32 +1,57 @@
 {% include base_path %}
 
-{% assign papertypes = site.publications | map: "type" | sort: "year" | uniq | reverse %}
+<!-- {% assign papertypes = site.publications | map: "type" | sort: "year" | uniq | reverse %} -->
+
+{% assign papertypes = "paper,conference,thesis" | split:"," %}
 
 <ol reversed class="list-nostyle list-nomargin" type="1" style="list-style-position: inside;">
 
-	{% for type in papertypes %}
+	{% for ptype in papertypes %}
 
 	<li class="nostyle">
 	<div class="archive__subtitle">
-	  {% if type == "paper" %}
+	  {% if ptype == "paper" %}
 	    <i>Journal Papers</i>
-	  {% elsif type == "conference" %}
+	  {% elsif ptype == "conference" %}
 	    <i>Conference Proceedings</i>
-	  {% elsif type == "patent" %}
+	  {% elsif ptype == "patent" %}
 	    <i>Patents</i>
-		{% elsif type == "thesis" %}
+		{% elsif ptype == "thesis" %}
 			<i>Theses</i>
 	  {% endif %}
 	</div>
 
-		{% assign pubs = site.publications | where:"type", type | sort: "order" | reverse %}
+		{% assign pubs = site.publications | where:"type", ptype | sort: "order" | reverse %}
 		<ol reversed class="publist" type="1" style="list-style-position: inside;">
 			{% for pub in pubs %}
 				{% include single_pub.html pub=pub %}
 			{% endfor %}
 		</ol>
 	</li>
-
 	{% endfor %}
 
+	{% assign existsnewtype = false %}
+	{% for pub in site.publications %}
+		{% unless papertypes contains pub.type %}
+			{% assign existsnewtype = true %}
+		{% endunless %}
+	{% endfor %}
+
+	{% if existsnewtype%}
+
+		<li class="nostyle">
+		<div class="archive__subtitle">
+			<i>Miscellaneous</i>
+		</div>
+
+		<ol reversed class="publist" type="1" style="list-style-position: inside;">
+		{% assign pubs = site.publications | sort: "year" | reverse %}
+		{% for pub in pubs %}
+			{% unless papertypes contains pub.type %}
+					{% include single_pub.html pub=pub %}
+			{% endunless %}
+		{% endfor %}
+		</ol>
+		</li>
+	{% endif %}
 </ol>
