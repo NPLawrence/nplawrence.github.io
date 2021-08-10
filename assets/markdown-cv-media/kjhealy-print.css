@@ -68,12 +68,12 @@ p {
 	left: 30%;
 	margin-bottom: 0.2em;
 	margin-right: 0;
-	width: 70%;
+	width: 65%;
 }
 
 code {
 	font: normal normal;
-	font-size: 70%;
+	font-size: 90%;
 	/*line-height: 1em;*/
 	font-family: Raleway,monospace,sans-serif;
 	color: #ccc;
@@ -81,7 +81,7 @@ code {
 
 p code {
 	position: absolute;
-	left: -14%;
+	left: -20%;
 }
 
 
@@ -120,6 +120,7 @@ h1,h2,h3,h4 {
 	width: 70%;
 }
 
+
 h1 {
 	text-align: left;
 	font-size: 3em;
@@ -141,7 +142,7 @@ h2 {
 	position: relative;
 	top: 1.2em;
 	text-align: right;
-	width: 18%;
+	width: 15%;
 }
 
 
@@ -152,7 +153,7 @@ h3 {
 	position: relative;
 	top: 1.6em;
 	text-align: right;
-	width: 18%;
+	width: 15%;
 }
 
 a {

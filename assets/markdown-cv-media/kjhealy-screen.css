@@ -74,7 +74,7 @@ p {
 
 code {
 	font: normal normal;
-	font-size: 80%;
+	font-size: 90%;
 	/*line-height: 1em;*/
 	font-family: Raleway,monospace,sans-serif;
 	color: #aaa;
@@ -82,7 +82,7 @@ code {
 
 p code {
 	position: absolute;
-	left: -14%;
+	left: -16%;
 }
 
 

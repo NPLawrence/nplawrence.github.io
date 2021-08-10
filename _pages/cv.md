@@ -8,8 +8,6 @@ redirect_from:
 
 ---
 
-
-
 # {{ site.author.name }}
 
 - {{ site.author.position }} / {{ site.author.discipline }} / {{ site.author.employer }}
