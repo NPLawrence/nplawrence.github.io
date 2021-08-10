@@ -83,12 +83,13 @@ analytics:
 author:
   name             : "Nathan Lawrence"
   avatar           : "nathan.jpg"
-  bio              : "Deep Reinforcement Learning Algorithms for Maintenance-free Control in Industrial Applications"
+  bio              : "PhD candidate at the University of British Columbia"
   location         : "Vancouver, BC"
-  employer         : "The University of British Columbia"
+  employer         : "University of British Columbia"
   employer_short   : "UBC"
   discipline       : "Applied Mathematics"
   department       : "Department of Mathematics"
+  position         : "PhD candidate"
   supervisors      :
     - name  : "Dr. Philip Loewen"
       url   : "https://secure.math.ubc.ca/~loew/"
@@ -161,6 +162,8 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
+# CV specs:
+cv_style:  kjhealy
 
 # Conversion
 markdown: kramdown
@@ -274,6 +277,12 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-last-modified-at
+
+# Optional. The default date format, used if none is specified in the tag.
+last-modified-at:
+    date-format: '%b-%y'
+
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
