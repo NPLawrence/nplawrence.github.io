@@ -4,7 +4,7 @@
 
 {% assign papertypes = "paper,conference,thesis" | split:"," %}
 
-<ol reversed class="list-nostyle list-nomargin" type="1" style="list-style-position: inside;">
+<ol reversed class="list-nostyle" type="1" style="list-style-position: inside;">
 
 	{% for ptype in papertypes %}
 
@@ -22,7 +22,7 @@
 	</div>
 
 		{% assign pubs = site.publications | where:"type", ptype | sort: "order" | reverse %}
-		<ol reversed class="publist" type="1" style="list-style-position: inside;">
+		<ol reversed class="publist" type="1" style="list-style-position: outside;">
 			{% for pub in pubs %}
 				{% include single_pub.html pub=pub %}
 			{% endfor %}

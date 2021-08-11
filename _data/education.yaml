@@ -1,0 +1,31 @@
+- degree:
+  name: Bachelor of Arts
+  name_short: BA
+  institution: Portland State University
+  inst_short: PSU
+  year: 2016
+  advisors:
+    - name: Dr. Mau Nam Nguyen
+      url: "http://web.pdx.edu/~mnn3/"
+
+- degree:
+  name: Master of Science
+  name_short: BA
+  institution: Portland State University
+  inst_short: PSU
+  year: 2018
+  advisors:
+    - name: Dr. Dacian Daescu
+      url: "http://web.pdx.edu/~daescu/"
+
+- degree:
+  name: Doctor of Philosophy
+  name_short: PhD
+  institution: The University of British Columbia
+  inst_short: UBC
+  year: "2018-present"
+  advisors:
+    - name  : "Dr. Philip Loewen"
+      url   : "https://secure.math.ubc.ca/~loew/"
+    - name  : "Dr. Bhushan Gopaluni"
+      url   : "https://dais.chbe.ubc.ca"

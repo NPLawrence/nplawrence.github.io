@@ -78,6 +78,9 @@ $weight-normal: 500;
 }
 
 .list-nostyle {
+  position: relative;
+  text-align: left;
+  left: -5%;
   li.nostyle {
   list-style-type: none;
 }
