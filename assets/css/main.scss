@@ -71,8 +71,9 @@ $weight-normal: 500;
     position: absolute;
     text-align: left;
     margin-left: 1em;
+    margin-right: 1.5em;
     float: left;
-    left: -35%;
+    left: -38%;
     color: mix(#fff, $gray, 25%);
     font-size: 0.9em;
 
@@ -82,6 +83,7 @@ $weight-normal: 500;
   position: relative;
   right: -25%;
   text-align: left;
+  margin-left: 1.5em;
   margin-right: 1em;
 
   display: list-item;
