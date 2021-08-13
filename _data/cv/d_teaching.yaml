@@ -1,0 +1,66 @@
+- category: Teaching
+  items:
+    - institution: Portland State University
+      department: Fariborz Maseeh Department of Mathematics & Statistics
+      title: Graduate Teaching Assistant
+      year: 2016
+      year_end: 2018
+      courses:
+        - number: 095
+          acronym: MTH
+          name: Intermediate Algebra
+          date:
+            - year: 2018
+              term: Winter
+        - number: 112
+          acronym: MTH
+          name: Introductory College Mathematics II
+          date:
+            - year: 2016
+              term: Fall
+            - year: 2017
+              term: Winter
+        - number: 252
+          acronym: MTH
+          name: Calculus II
+          date:
+            - year: 2017
+              term: Summer
+            - year: 2018
+              term: Spring
+        - number: 253
+          acronym: MTH
+          name: Caclulus III
+          date:
+            - year: 2017
+              term: Spring
+            - year: 2017
+              term: Fall
+
+- category: Tutoring
+  items:
+    - institution: Portland State University
+      department: The Learning Center - Branford Price Millar Library
+      title: Mathematics tutor
+      note: Level 1 certification by the CRLA International Tutor Training Program
+      year: 2014
+      year_end: 2016
+      courses:
+        - number: 70-254
+          acronym: MTH
+          name: Algebra through Calculus IV
+        - number: 256
+          acronym: MTH
+          name: Differential Equations
+        - number: 261
+          acronym: MTH
+          name: Linear Algebra
+    - institution: The University of British Columbia
+      department: The Math Learning Centre
+      title: Mathematics tutor
+      year: 2018
+      year_end: 2019
+      courses:
+        - number: 100 - 317
+          acronym: MATH
+          name: Proofs, Calculus, Linear Algebra, Differential Equations

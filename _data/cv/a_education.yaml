@@ -1,0 +1,34 @@
+- name: BA
+  name_full: Bachelor of Arts
+  institution: Portland State University Honors College
+  inst_short: PSU
+  degree: Mathematics
+  year: 2013
+  year_end: 2016
+  note: Graduated summa cum laude and with departmental honors
+  advisors:
+    - name: "Dr. Mau Nam Nguyen"
+      url: "http://web.pdx.edu/~mnn3/"
+- name: MS
+  name_full: Master of Science
+  institution: Portland State University
+  inst_short: PSU
+  degree: Mathematics
+  year: 2016
+  year_end: 2018
+  advisors:
+    - name: "Dr. Dacian Daescu"
+      url: "http://web.pdx.edu/~daescu/"
+- name: PhD
+  name_full: Doctor of Philosophy
+  institution: The University of British Columbia
+  inst_short: UBC
+  degree: Applied Mathematics
+  year: 2018
+  year_end: "Present"
+  note: In progress
+  advisors:
+    - name  : "Dr. Philip Loewen"
+      url   : "https://secure.math.ubc.ca/~loew/"
+    - name  : "Dr. Bhushan Gopaluni"
+      url   : "https://dais.chbe.ubc.ca"

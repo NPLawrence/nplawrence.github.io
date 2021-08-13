@@ -1,0 +1,71 @@
+
+{% assign var = include.item %}
+{% assign section = include.section %}
+
+<li class="nostyle cv-list-item">
+
+  <span class="cv-year">{{ var.year }}{% if var.year_end %}-{{ var.year_end }}{% endif %}</span>
+
+  {% if var.name %}
+  <span class="pub-title">
+    <b>{{ var.name }}</b>{% if var.degree %} - {{ var.degree }}{% endif %}{% if var.event %} - {{ var.event }}{% endif %}
+    <br>
+  </span>
+  {% elsif var.program %}
+  <span class="pub-title">
+    {{ var.program }}
+    <br>
+  </span>
+  {% elsif var.organization %}
+  <span class="pub-title">
+    {{ var.organization }}{% if var.position %} - {{ var.position }}{% endif %}
+    <br>
+  </span>
+  {% endif %}
+
+  {% if var.title %}
+  <span class="pub-title">
+    <b>{{ var.title }}</b>
+    <br>
+  </span>
+  {% endif %}
+
+
+  {% if var.project %}
+  <i>{{ var.project }}</i>
+  <br>
+  {% endif %}
+
+  {% if var.department %}
+  {{ var.department }}
+  <br>
+  {% endif %}
+  {% if var.institution %}
+  {{ var.institution }}{% if var.amount %} - {{ var.amount }}{% endif %}
+  <br>
+  {% endif %}
+
+  {% if var.courses %}
+    {{ var.courses[0].acronym }} {{ var.courses | map: "number" | join: ", "}}
+    ({{ var.courses | map: "name" | join: ", "}} )
+    <br>
+  {% endif %}
+
+
+  {% if var.advisors %}
+  {% assign advisorlist = {{var.advisors | map: "name" }} %}
+  Advisor{% if advisorlist.size > 1 %}s: {% endif %} {{ advisorlist | join: ", "}}
+  <br>
+  {% elsif var.students%}
+  {% assign studentlist = {{var.students | map: "name" }} %}
+  Student{% if studentlist.size > 1 %}s: {% endif %} {{ studentlist | join: ", "}}
+  <br>
+  {% endif %}
+
+  {% if var.note %}
+    {{ var.note }}
+    <br>
+  {% endif %}
+
+
+</li>

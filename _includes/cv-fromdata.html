@@ -1,0 +1,47 @@
+
+{% assign cvsections = site.data/cv %}
+
+
+
+<ol class="list-nostyle" type="1" style="list-style-position: outside;">
+
+  {% for sec in site.data/cv  %}
+
+	<li class="nostyle">
+
+    {% if sec[0] contains "education" %}
+	    <b class="cv__item-title">Education</b>
+	  {% elsif sec[0] contains "awards" %}
+	    <b class="cv__item-title">Awards and Honors</b>
+	  {% elsif sec[0] contains "teaching" %}
+	    <b class="cv__item-title">Teaching Experience</b>
+		{% elsif sec[0] contains "service" %}
+	    <b class="cv__item-title">Service and Leadership</b>
+		{% elsif sec[0] contains "publications" %}
+	    <b class="cv__item-title">Publications</b>
+		{% elsif sec[0] contains "skills" %}
+			<b class="cv__item-title">Skills</b>
+	  {% endif %}
+		<br>
+		{% assign cvitems = sec[1] | sort: "year" | reverse %}
+
+		{% for elem in cvitems %}
+			{% if elem.category %}
+
+				<i class="cv__item-title">
+			    {{ elem.category }}
+			  </i>
+				<br>
+
+				{% assign sub_cvitems = elem.items | sort: "year" | reverse %}
+				{% for subitem in sub_cvitems %}
+					{% include single_cv_item.html item=subitem section='sec[0]' %}
+				{% endfor %}
+			{% else %}
+				{% include single_cv_item.html item=elem section='sec[0]' %}
+			{% endif %}
+		{% endfor %}
+
+	</li>
+	{% endfor %}
+</ol>

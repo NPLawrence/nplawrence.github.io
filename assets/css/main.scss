@@ -67,7 +67,44 @@ $weight-normal: 500;
   margin-bottom: 1em;
 }
 
+.cv-year {
+    position: absolute;
+    text-align: left;
+    margin-left: 1em;
+    float: left;
+    left: -35%;
+    color: mix(#fff, $gray, 25%);
+    font-size: 0.9em;
 
+}
+
+.cv-list-item {
+  position: relative;
+  right: -25%;
+  text-align: left;
+  margin-right: 1em;
+
+  display: list-item;
+  width: 70%;
+  list-style-type: decimal;
+  font-family: $serif-font;
+}
+
+
+.cvlist {
+
+  li.cvstyle {
+    position: relative;
+    float: right;
+    text-align: left;
+    margin-left: 1em;
+
+    display: list-item;
+    width: 70%;
+    list-style-type: decimal;
+    font-family: $serif-font;
+  }
+}
 
 .publist {
   li {
@@ -80,6 +117,7 @@ $weight-normal: 500;
 .list-nostyle {
   position: relative;
   text-align: left;
+  float: left;
   left: -5%;
   li.nostyle {
   list-style-type: none;
@@ -88,6 +126,7 @@ $weight-normal: 500;
 
 .list-nomargin {
   margin-left: 0em !important;
+
 }
 
 .title, .news-title, .pub-title {

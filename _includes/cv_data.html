@@ -1,6 +1,5 @@
 {% include base_path %}
 
-<!-- {% assign papertypes = site.publications | map: "type" | sort: "year" | uniq | reverse %} -->
 
 {% assign papertypes = "paper,conference,thesis" | split:"," %}
 
@@ -9,7 +8,7 @@
 	{% for ptype in papertypes %}
 
 	<li class="nostyle">
-	<div class="archive__item-title">
+	<div class="archive__subtitle">
 	  {% if ptype == "paper" %}
 	    <i>Journal Papers</i>
 	  {% elsif ptype == "conference" %}
@@ -21,7 +20,7 @@
 	  {% endif %}
 	</div>
 
-		{% assign pubs = site.publications | where: "type", ptype | sort: "order" | reverse %}
+		{% assign pubs = site.publications | where:"type", ptype | sort: "order" | reverse %}
 		<ol reversed class="publist" type="1" style="list-style-position: outside;">
 			{% for pub in pubs %}
 				{% include single_pub.html pub=pub %}

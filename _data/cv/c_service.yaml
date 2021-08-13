@@ -1,0 +1,41 @@
+- category: Leadership
+  items:
+    - organization: DAIS research lab
+      position: Organizer
+      year: 2020
+      year_end: 2021
+    - organization: SIAM, PSU Chapter
+      position: Vice-President
+      year: 2017
+      year_end: 2018
+    - organization: Pi Mu Epsilon, Oregon Gamma Chapter
+      position: President
+      year: 2015
+      year_end: 2016
+    - organization: PSU Chess Club
+      position: Vice-President
+      year: 2015
+      year_end: 2017
+
+- category: Mentoring
+  items:
+    - program: UBC Engineering Co-op Experimental Course
+      project: PID tuning via meta-learning
+      year: 2020
+      students:
+        - name: Aniket Chakraborty
+        - name: Farbod Chamanian
+        - name: James Penfold
+        - name: Leo Wei
+
+- category: Reviewing activities
+  items:
+    - name: IFAC
+      event: World Congress
+      year: 2020
+    - name: IEEE
+      event: Robotics and Automation Letters
+      year: 2021
+    - name: IEEE
+      event: Control Systems Letters
+      year: 2020

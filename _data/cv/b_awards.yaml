@@ -1,62 +1,65 @@
-- award:
-  name: Alexander Graham Bell Canada Graduate Scholarship
+- name: Alexander Graham Bell Canada Graduate Scholarship
   year: 2020
   degree: Doctoral
   amount: CAN $35,000 per year
   institution: The University of British Columbia
+  inst_short: UBC
 
-- award:
-  name: Eugene Enneking Doctoral Fellowship
+- name: Eugene Enneking Doctoral Fellowship
   year: 2018
   degree: Doctoral
   amount: $20,000 per year
   institution: Portland State University
+  inst_short: PSU
   declined: yes
 
-- award:
-  name: Oregon Sports Lottery Graduate Scholarship
+- name: Oregon Sports Lottery Graduate Scholarship
   year: 2018
   degree: Doctoral
   amount: $5,000 per year
   institution: Portland State University
+  inst_short: PSU
   declined: yes
 
-- award:
-  name: F.S. Cater Prize
+- name: F.S. Cater Prize
   year: 2017
   degree: Master's
   amount: $3,000
   institution: Portland State University
+  inst_short: PSU
 
-- award:
-  name: Dean's Award for Academic Achievement
+- name: Dean's Award for Academic Achievement
   year: 2016
-  degree: Bachelors's
+  degree: Bachelor's
   institution: Portland State University
+  inst_short: PSU
 
-- award:
-  name: President's List
-  year: 2013-2016
-  degree: Bachelors's
+- name: President's List
+  year: 2013
+  year_end: 2016
+  degree: Bachelor's
   institution: Portland State University
+  inst_short: PSU
 
-- award:
-  name: Barbara McDougall Scholarship
+- name: Barbara McDougall Scholarship
   year: 2015
-  degree: Bachelors's
+  degree: Bachelor's
   amount: $2,000
   institution: Portland State University
+  inst_short: PSU
 
-- award:
-  name: Honors Laurels Merit Award
-  year: 2014-2015
-  degree: Bachelors's
+- name: Honors Laurels Merit Award
+  year: 2014
+  year_end: 2015
+  degree: Bachelor's
   amount: $1,000 each
   institution: Portland State University
+  inst_short: PSU
 
-- award:
-  name: The Honor Society of Phi Kappa Phi
-  year: 2013-215
-  degree: Bachelors's
+- name: The Honor Society of Phi Kappa Phi
+  year: 2013
+  year_end: 2015
+  degree: Bachelor's
   institution: Portland State University
+  inst_short: PSU
   note: Member
