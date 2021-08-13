@@ -9,7 +9,6 @@
 	{% for ptype in papertypes %}
 
 	<li class="nostyle">
-	<div class="archive__item-title">
 	  {% if ptype == "paper" %}
 	    <i>Journal Papers</i>
 	  {% elsif ptype == "conference" %}
@@ -19,7 +18,6 @@
 		{% elsif ptype == "thesis" %}
 			<i>Theses</i>
 	  {% endif %}
-	</div>
 
 		{% assign pubs = site.publications | where: "type", ptype | sort: "order" | reverse %}
 		<ol reversed class="publist" type="1" style="list-style-position: outside;">
