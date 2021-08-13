@@ -1,8 +1,8 @@
-A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
+A modified Github Pages template for academic websites. This was forked (then detached) by [Nathan Lawrence](https://github.com/NPLawrence) from the [Academic Pages Theme](https://github.com/academicpages/academicpages.github.io), which was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
 
-I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
+[This](https://www.aleksandrhovhannisyan.com/blog/getting-started-with-jekyll-and-github-pages/) is the best blog post I found for getting started with Jekyll and GitHub Pages.
 
-### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
+See the linked themes above for their corresponding documentation and instructions. Here are the basic instruction and changes I made.
 
 # Instructions
 
@@ -24,8 +24,14 @@ See more info at https://academicpages.github.io/
 1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
 1. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
 
-# Changelog -- bugfixes and enhancements
+# Changes to [Academic Pages Theme](https://github.com/academicpages/academicpages.github.io)
 
-There is one logistical issue with a ready-to-fork template theme like academic pages that makes it a little tricky to get bug fixes and updates to the core theme. If you fork this repository, customize it, then pull again, you'll probably get merge conflicts. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch. 
-
-To support this, all changes to the underlying code appear as a closed issue with the tag 'code change' -- get the list [here](https://github.com/academicpages/academicpages.github.io/issues?q=is%3Aclosed%20is%3Aissue%20label%3A%22code%20change%22%20). Each issue thread includes a comment linking to the single commit or a diff across multiple commits, so those with forked repositories can easily identify what they need to patch.
+- Code snippets and styling inspiration from [DAIS lab website](https://github.com/daisubc/daisubc.github.io) and [Markdown-CV](https://github.com/elipapa/markdown-cv).
+- I created a custom format for displaying publications.
+  - Publications are sorted based on type (journal, conference, etc). 
+  - Add notes and extra links (like arXiv or code) to publication entries.
+  - Optionally, one may display only recent publications, for example, on the homepage.
+- I created a custom format for the CV inspired by [Markdown-CV](https://github.com/elipapa/markdown-cv).
+  - It is consistent with the academic pages format.
+  - All the CV data is in .yaml files, which is accompanied by an `include` function for generating the CV.
+- My website is minimal with only a CV in the navigation bar. All the original features (like blogging) of the Academic Pages Theme still exists.
