@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: cv-print
 title: Nathan Lawrence's CV
 permalink: /cv-print/
 author_profile: false

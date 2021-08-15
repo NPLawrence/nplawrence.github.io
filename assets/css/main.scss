@@ -71,10 +71,9 @@ $weight-normal: 500;
     position: absolute;
     text-align: left;
     margin-left: 1em;
-    margin-right: 1.5em;
+    padding-right: 1.5em;
     float: left;
-    left: -38%;
-    color: mix(#fff, $gray, 25%);
+    left: -30%;
     font-size: 0.9em;
 
 }
@@ -83,11 +82,11 @@ $weight-normal: 500;
   position: relative;
   right: -25%;
   text-align: left;
-  margin-left: 1.5em;
+  padding-left: 1.5em;
   margin-right: 1em;
 
   display: list-item;
-  width: 70%;
+  width: 80%;
   list-style-type: decimal;
   font-family: $serif-font;
 }

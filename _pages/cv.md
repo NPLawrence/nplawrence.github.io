@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: Nathan Lawrence's CV
+title:
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -10,7 +10,9 @@ updated: August 2021
 
 <!-- {{ site.author.position }} / {{ site.author.discipline }} / {{ site.author.employer }} -->
 
+<h6 class="no-print" style="text-align:right">
+(For a well-formatted PDF, simply save or print this webpage.)
+<br>
+</h6>
+# Nathan Lawrence's CV | {{ site.author.email }}
 {% include cv-fromdata.html %}
-
-
-#### (Last updated: {{ page.updated }})

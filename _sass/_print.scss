@@ -12,7 +12,92 @@
   .page__share,
   .page__related,
   .ads,
+  .comment-print-ignore,
+  .sidebar,
   .page__footer {
     display: none;
   }
+  .no-print, .no-print *
+{
+    display: none !important;
+}
+
+  @page {
+    size: 21cm 29.7cm;
+    margin: 30mm 45mm 30mm 45mm;
+    color: #808080;
+
+
+     /* change the margins as you want them to be. */
+}
+
+  body {
+    font-size: 11pt;
+  	line-height: 1.25em;
+  	/*also written as...  font: normal normal 400 100%/1.5em;*/
+  	margin-top: 1em;
+  	margin-left: 1em;
+    margin-right: 1em;
+    text-align: left;
+    width:100%;
+
+  }
+
+  .cv-year {
+      position: relative;
+      text-align: left;
+      float: left;
+      font-size: 100%;
+      margin-left: 1em;
+      color: #ccc;
+      left: -10%;
+
+
+
+  }
+
+  .cv__item-title{
+    font-size: 110%;
+    position: absolute;
+    text-align: left;
+    float: left;
+    left: -20%;
+    margin-left: 1em;
+
+  }
+
+  .cv-list-item {
+    text-align: left;
+    right: -10%;
+
+
+  }
+
+  h1,h2,h3,h4 {
+  	width: 100%;
+    text-align: left;
+    margin-left: 1em;
+    float: left;
+    line-height: 1.25em;
+
+  }
+
+
+
+
+
+  li {
+  	/*second line indent*/
+    margin-left: 1em;
+
+    width: 150%;
+  	/*color: #777;*/
+  }
+
+  p {
+  	position: relative;
+  	margin-bottom: 0.2em;
+  	margin-right: 0;
+  }
+
 }
