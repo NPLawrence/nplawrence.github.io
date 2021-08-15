@@ -72,7 +72,6 @@ $weight-normal: 500;
     text-align: left;
     margin-left: 1em;
     padding-right: 1.5em;
-    float: left;
     left: -30%;
     font-size: 0.9em;
 
@@ -96,7 +95,6 @@ $weight-normal: 500;
 
   li.cvstyle {
     position: relative;
-    float: right;
     text-align: left;
     margin-left: 1em;
 
@@ -118,7 +116,6 @@ $weight-normal: 500;
 .list-nostyle {
   position: relative;
   text-align: left;
-  float: left;
   left: -5%;
   li.nostyle {
   list-style-type: none;
