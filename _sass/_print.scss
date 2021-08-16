@@ -36,25 +36,23 @@
   body, h1, h2, h3, ol, ul, div {     width: auto;     border: 0;     margin: 0 5%;     padding: 0;     float: none;     position: static;     overflow: visible; }
 
   .cv-year {
+      position: static;
       text-align: left;
       font-size: 100%;
       color: #ccc;
-      left: -10%;
-
-
 
   }
 
   .cv__item-title{
     font-size: 110%;
     text-align: left;
-    left: -20%;
+    left: -10%;
 
   }
 
   .cv-list-item {
+    position: static;
     text-align: left;
-    right: -15%;
   }
 
   h1,h2,h3,h4 {
@@ -63,14 +61,11 @@
   }
 
 
-
-
-
   li {
   	/*second line indent*/
     margin-left: 1em;
 
-    width: 150%;
+    width: 175%;
   	/*color: #777;*/
   }
 
