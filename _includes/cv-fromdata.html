@@ -1,14 +1,13 @@
 {% include base_path %}
 
 
-{% assign cvsections = site.data/cv %}
+{% assign cvsections = site.data/cv | sort %}
 
 
 
 <ol class="list-nostyle" type="1" style="list-style-position: outside;">
 
-  {% for sec in site.data/cv  %}
-
+  {% for sec in cvsections %}
 	<li class="nostyle">
 
     {% if sec[0] contains "education" %}
