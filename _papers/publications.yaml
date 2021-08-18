@@ -3914,6 +3914,40 @@ references:
   URL: https://linkinghub.elsevier.com/retrieve/pii/S0005109897001945
   volume: '34'
 
+- id: karniadakis2021PhysicsinformedMachine
+  accessed:
+    - year: 2021
+      month: 8
+      day: 16
+  author:
+    - family: Karniadakis
+      given: George Em
+    - family: Kevrekidis
+      given: Ioannis G.
+    - family: Lu
+      given: Lu
+    - family: Perdikaris
+      given: Paris
+    - family: Wang
+      given: Sifan
+    - family: Yang
+      given: Liu
+  container-title: Nature Reviews Physics
+  container-title-short: Nat Rev Phys
+  DOI: 10.1038/s42254-021-00314-5
+  ISSN: 2522-5820
+  issue: '6'
+  issued:
+    - year: 2021
+      month: 6
+  note: 0 citations (Semantic Scholar/DOI) [2021-08-16]
+  page: 422-440
+  source: DOI.org (Crossref)
+  title: Physics-informed machine learning
+  type: article-journal
+  URL: http://www.nature.com/articles/s42254-021-00314-5
+  volume: '3'
+
 - id: katz2020IntegratingDeep
   accessed:
     - year: 2021
