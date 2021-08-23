@@ -14,7 +14,7 @@ updated: August 2021
 (For a well-formatted* PDF, simply save or print this webpage.)
 <br>
 </h6>
-# Nathan Lawrence's CV | {{ site.author.email }}
+# Nathan Lawrence's CV | lawrence@math.ubc.ca
 {% include cv-fromdata.html %}
 <h6 class="no-print" style="text-align:right">
 *with probability greater than zero
