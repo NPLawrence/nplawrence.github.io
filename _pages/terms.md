@@ -1,11 +1,12 @@
 ---
 permalink: /terms/
 title: "Terms and Privacy Policy"
-modified: 2016-06-06
+modified: 2021-08-23
 ---
 
 {% include base_path %}
-{% include toc %}
+
+**I have not setup any tracking or analytics tools for this site.** Below are the original terms listed in the template from which this site is derived.
 
 ## Privacy Policy
 

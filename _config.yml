@@ -74,7 +74,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               :  false # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
@@ -82,7 +82,7 @@ analytics:
 # Site Author
 author:
   name             : "Nathan P. Lawrence"
-  alt_name         : "Nathan Lawrence"
+  short_name         : "Nathan Lawrence"
   avatar           : "nathan.jpg"
   bio              : "PhD candidate at the University of British Columbia"
   location         : "Vancouver, BC"
