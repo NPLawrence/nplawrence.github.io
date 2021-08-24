@@ -1,7 +1,16 @@
 - name: Alexander Graham Bell Canada Graduate Scholarship
   year: 2020
+  year_end: present
   degree: Doctoral
   amount: CAN $35,000 per year
+  institution: The University of British Columbia
+  inst_short: UBC
+
+- name: Four Year Doctoral Fellowship
+  year: 2018
+  year_end: present
+  degree: Doctoral
+  amount: Supplemental funding
   institution: The University of British Columbia
   inst_short: UBC
 
