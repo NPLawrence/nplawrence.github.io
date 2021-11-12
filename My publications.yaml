@@ -78,7 +78,6 @@ references:
     - year: 2020
       month: 12
       day: 22
-  archive: https://arxiv.org/abs/2103.14722
   author:
     - family: Lawrence
       given: Nathan
@@ -171,7 +170,6 @@ references:
     - year: 2021
       month: 9
       day: 13
-  archive: https://arxiv.org/abs/2103.14060
   author:
     - family: McClement
       given: Daniel G.
@@ -202,7 +200,6 @@ references:
     - year: 2020
       month: 12
       day: 22
-  archive: https://arxiv.org/abs/2004.05490
   author:
     - family: Spielberg
       given: Steven

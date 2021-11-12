@@ -10,12 +10,12 @@
 <a target="_blank" href="{{ site.baseurl }}/assets/preprints/{{ pub.supplementary }}"><span class="tag is-warning">[Supplementary Info]</span></a>
 {% endif %} -->
 
-{% if pub.link %}
-<a target="_blank" href="{{ pub.link }}"><span class="tag is-danger">[Link]</span></a>
+{% if pub.URL %}
+<a target="_blank" href="{{ pub.URL }}"><span class="tag is-danger">[Link]</span></a>
 {% endif %}
 
-{% if pub.arxiv %}
-<a target="_blank" href="{{ pub.arxiv }}"><span class="tag is-danger">[arXiv]</span></a>
+{% if pub.archive %}
+<a target="_blank" href="{{ pub.archive }}"><span class="tag is-danger">[arXiv]</span></a>
 {% endif %}
 
 {% if pub.code %}

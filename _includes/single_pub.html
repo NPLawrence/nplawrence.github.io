@@ -1,4 +1,4 @@
-{% assign pub_authors = pub.authors | split: ", " %}
+{% assign pub_authors = pub.author %}
 
 <li class="box box-left-border list-item">
 
@@ -16,23 +16,21 @@
 
   <span class="pub-journal">
     <i>
-      {% if pub.external_url %}
-      <a target="_blank" href="{{ pub.external_url }}">{{ pub.journal }}.</a>
+      {% if pub.event %}
+        {{ pub.event }}.
+      {% elsif pub.publisher %}
+        {{ pub.publisher }}.
       {% else %}
-        {{ pub.journal }}.
+        {{ pub.container-title }}.
       {% endif %}
     </i>
-  {% if pub.pagenum %}
-    <br>
-    pp. {{ pub.pagenum }}.
-  {% endif %}
-  {{ pub.year }}.
+  {{ pub.issued | map: "year" }}.
   </span>
   <br>
   {% include pub_links.html pub=pub %}
 
-  {% if pub.notes %} |
-  <span class="highlight tag is-info is-light">{{ (pub.notes) }}</span>
+  {% if pub.note %} |
+  <span class="highlight tag is-info is-light">{{ (pub.note) }}</span>
   {% endif %}
 
 </li>

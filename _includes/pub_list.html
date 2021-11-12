@@ -2,16 +2,16 @@
 
 <!-- {% assign papertypes = site.publications | map: "type" | sort: "year" | uniq | reverse %} -->
 
-{% assign papertypes = "paper,conference,thesis" | split:"," %}
+{% assign papertypes = "article-journal,paper-conference,thesis" | split:"," %}
 
 <ol reversed class="list-nostyle" type="1" style="list-style-position: inside;">
 
 	{% for ptype in papertypes %}
 
 	<li class="nostyle">
-	  {% if ptype == "paper" %}
+	  {% if ptype == "article-journal" %}
 	    <i>Journal Papers</i>
-	  {% elsif ptype == "conference" %}
+	  {% elsif ptype == "paper-conference" %}
 	    <i>Conference Proceedings</i>
 	  {% elsif ptype == "patent" %}
 	    <i>Patents</i>
@@ -19,7 +19,7 @@
 			<i>Theses</i>
 	  {% endif %}
 
-		{% assign pubs = site.publications | where: "type", ptype | sort: "order" | reverse %}
+		{% assign pubs = site.data.publications.references | where: "type", ptype | sort: "order" | reverse %}
 		<ol reversed class="publist" type="1" style="list-style-position: outside;">
 			{% for pub in pubs %}
 				{% include single_pub.html pub=pub %}
@@ -29,7 +29,7 @@
 	{% endfor %}
 
 	{% assign existsnewtype = false %}
-	{% for pub in site.publications %}
+	{% for pub in site.data.publications.references %}
 		{% unless papertypes contains pub.type %}
 			{% assign existsnewtype = true %}
 		{% endunless %}
@@ -43,7 +43,7 @@
 		</div>
 
 		<ol reversed class="publist" type="1" style="list-style-position: inside;">
-		{% assign pubs = site.publications | sort: "year" | reverse %}
+		{% assign pubs = site.data.publications.references | sort: "year" | reverse %}
 		{% for pub in pubs %}
 			{% unless papertypes contains pub.type %}
 					{% include single_pub.html pub=pub %}
