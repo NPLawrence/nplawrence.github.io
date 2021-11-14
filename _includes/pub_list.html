@@ -35,21 +35,5 @@
 		{% endunless %}
 	{% endfor %}
 
-	{% if existsnewtype%}
 
-		<li class="nostyle">
-		<div class="archive__subtitle">
-			<i>Miscellaneous</i>
-		</div>
-
-		<ol reversed class="publist" type="1" style="list-style-position: inside;">
-		{% assign pubs = site.data.publications.references | sort: "year" | reverse %}
-		{% for pub in pubs %}
-			{% unless papertypes contains pub.type %}
-					{% include single_pub.html pub=pub %}
-			{% endunless %}
-		{% endfor %}
-		</ol>
-		</li>
-	{% endif %}
 </ol>
