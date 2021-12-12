@@ -8,7 +8,7 @@
 
   {% if var.name %}
   <span class="pub-title">
-    <b>{{ var.name }}</b>{% if var.degree %} - {{ var.degree }}{% endif %}{% if var.event %} - {{ var.event }}{% endif %}
+    <b>{{ var.name }}</b>{% if var.degree %} - {{ var.degree }}{% endif %}{% if var.event %} - {{ var.event }}{% endif %}{% if var.declined %} - (declined) {% endif %}
     <br>
   </span>
   {% elsif var.program %}
@@ -54,7 +54,7 @@
 
   {% if var.advisors %}
   {% assign advisorlist = {{var.advisors | map: "name" }} %}
-  Advisor{% if advisorlist.size > 1 %}s: {% endif %} {{ advisorlist | join: ", "}}
+  {% if advisorlist.size > 1 %}Advisors: {% else %} Advisor: {% endif %} {{ advisorlist | join: ", "}}
   <br>
   {% elsif var.students%}
   {% assign studentlist = {{var.students | map: "name" }} %}

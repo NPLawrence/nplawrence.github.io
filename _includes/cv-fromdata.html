@@ -3,28 +3,33 @@
 
 {% assign cvsections = site.data/cv | sort %}
 
-
+{% assign cvnames = "education,awards,services,teaching" | split:"," %}
 
 <ol class="list-nostyle" type="1" style="list-style-position: outside;">
 
-  {% for sec in cvsections %}
+  {% for sec in cvnames %}
 	<li class="nostyle">
 
-    {% if sec[0] contains "education" %}
+    {% if sec contains "education" %}
 	    <b class="cv__item-title">Education</b>
-	  {% elsif sec[0] contains "awards" %}
+	  {% elsif sec contains "awards" %}
 	    <b class="cv__item-title">Awards and Honors</b>
-	  {% elsif sec[0] contains "teaching" %}
+	  {% elsif sec contains "teaching" %}
 	    <b class="cv__item-title">Teaching Experience</b>
-		{% elsif sec[0] contains "service" %}
+		{% elsif sec contains "service" %}
 	    <b class="cv__item-title">Service and Leadership</b>
-		{% elsif sec[0] contains "publications" %}
+		{% elsif sec contains "publications" %}
 	    <b class="cv__item-title">Publications</b>
-		{% elsif sec[0] contains "skills" %}
+		{% elsif sec contains "skills" %}
 			<b class="cv__item-title">Skills</b>
 	  {% endif %}
 		<br>
-		{% assign cvitems = sec[1] | sort: "year" | reverse %}
+
+		{% for name in cvsections %}
+			{% if sec contains name[0] %}
+				{% assign cvitems = name[1] | sort: "year" | reverse %}
+			{% endif %}
+		{% endfor %}
 
 		{% for elem in cvitems %}
 			{% if elem.category %}

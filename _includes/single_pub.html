@@ -20,8 +20,10 @@
         {{ pub.event }}.
       {% elsif pub.publisher %}
         {{ pub.publisher }}.
-      {% else %}
+      {% elsif pub.container-title %}
         {{ pub.container-title }}.
+      {% elsif pub.source %}
+        {{ pub.source }}
       {% endif %}
     </i>
   {{ pub.issued | map: "year" }}.
