@@ -24,11 +24,11 @@ references:
       given: Jong Woo
     - family: Lawrence
       given: Nathan P.
+  citation-key: gopaluni2020ModernMachine
   container-title: IFAC-PapersOnLine
   DOI: 10.1016/j.ifacol.2020.12.126
   event: IFAC World Congress
-  issued:
-    - year: 2020
+  year: 2020
   page: 218-229
   source: DOI.org (Crossref)
   title: >-
@@ -49,6 +49,7 @@ references:
   author:
     - family: Lawrence
       given: Nathan
+  citation-key: lawrence2016ConvexNonconvex
   DOI: 10.15760/honors.319
   issued:
     - year: 2016
@@ -66,8 +67,8 @@ references:
   author:
     - family: Lawrence
       given: Nathan
-  issued:
-    - year: 2018
+  citation-key: lawrence2018LowDimensionalCharacterization
+  year: 2018
   publisher: Portland State University
   source: Zotero
   title: Low-Dimensional Characterization of Human Faces from Gappy Data
@@ -90,10 +91,10 @@ references:
       given: Johan
     - family: Gopaluni
       given: Bhushan
+  citation-key: lawrence2020AlmostSurely
   container-title: Advances in Neural Information Processing Systems
   event: NeurIPS
-  issued:
-    - year: 2020
+  year: 2020
   note: NeurIPS Spotlight
   source: papers.nips.cc
   title: Almost Surely Stable Deep Dynamics
@@ -121,11 +122,11 @@ references:
       given: Johan U.
     - family: Gopaluni
       given: R. Bhushan
+  citation-key: lawrence2020OptimalPID
   container-title: IFAC-PapersOnLine
   DOI: 10.1016/j.ifacol.2020.12.129
   event: IFAC World Congress
-  issued:
-    - year: 2020
+  year: 2020
   page: 236-241
   source: DOI.org (Crossref)
   title: >-
@@ -154,11 +155,11 @@ references:
       given: Johan U.
     - family: Gopaluni
       given: R. Bhushan
+  citation-key: lawrence2020ReinforcementLearning
   container-title: IFAC-PapersOnLine
   DOI: 10.1016/j.ifacol.2020.12.127
   event: IFAC World Congress
-  issued:
-    - year: 2020
+  year: 2020
   page: 230-235
   source: DOI.org (Crossref)
   title: Reinforcement Learning based Design of Linear Fixed Structure Controllers
@@ -166,11 +167,12 @@ references:
   URL: https://linkinghub.elsevier.com/retrieve/pii/S2405896320303839
   volume: '53'
 
-- id: lawrence2021DeepReinforcement
+- id: lawrence2022DeepReinforcement
   accessed:
-    - year: 2021
-      month: 12
-      day: 12
+    - year: 2022
+      month: 3
+      day: 1
+  archive: https://arxiv.org/abs/2111.07171
   author:
     - family: Lawrence
       given: Nathan P.
@@ -180,21 +182,25 @@ references:
       given: Philip D.
     - family: McClement
       given: Daniel G.
-    - family: Backstrom
+    - family: Backström
       given: Johan U.
     - family: Gopaluni
       given: R. Bhushan
-  issued:
-    - year: 2021
-      month: 11
-      day: 13
-  source: arXiv.org
+  citation-key: lawrence2022DeepReinforcement
+  container-title: Control Engineering Practice
+  container-title-short: Control Engineering Practice
+  DOI: 10.1016/j.conengprac.2021.105046
+  ISSN: '09670661'
+  year: 2022
+  page: '105046'
+  source: DOI.org (Crossref)
   title: >-
-    Deep Reinforcement Learning with Shallow Controllers: An Experimental
-    Application to PID Tuning
-  title-short: Deep Reinforcement Learning with Shallow Controllers
-  type: manuscript
-  URL: http://arxiv.org/abs/2111.07171
+    Deep reinforcement learning with shallow controllers: An experimental
+    application to PID tuning
+  title-short: Deep reinforcement learning with shallow controllers
+  type: article-journal
+  URL: https://linkinghub.elsevier.com/retrieve/pii/S0967066121002963
+  volume: '121'
 
 - id: mcclement2021MetaReinforcementLearning
   accessed:
@@ -215,10 +221,10 @@ references:
       given: Johan U.
     - family: Gopaluni
       given: R. Bhushan
+  citation-key: mcclement2021MetaReinforcementLearning
   container-title: IFAC-PapersOnLine
   DOI: 10.1016/j.ifacol.2021.08.321
-  issued:
-    - year: 2021
+  year: 2021
   note: Keynote Paper
   page: 685-692
   source: DOI.org (Crossref)
@@ -244,11 +250,10 @@ references:
       given: Philip D.
     - family: Bhushan Gopaluni
       given: R.
+  citation-key: spielberg2019SelfDriving
   container-title: AIChE Journal
   DOI: 10.1002/aic.16689
-  issued:
-    - year: 2019
-      month: 10
+  year: 2019
   source: DOI.org (Crossref)
   title: >-
     Toward self‐driving processes: A deep reinforcement learning approach to

@@ -2,7 +2,7 @@
 
 <!-- {% assign papertypes = site.publications | map: "type" | sort: "year" | uniq | reverse %} -->
 
-{% assign papertypes = "manuscript,article-journal,paper-conference,thesis" | split:"," %}
+{% assign papertypes = "article-journal,paper-conference,thesis" | split:"," %}
 
 <ol reversed class="list-nostyle" type="1" style="list-style-position: inside;">
 
@@ -21,7 +21,8 @@
 			<i>Theses</i>
 	  {% endif %}
 
-		{% assign pubs = site.data.publications.references | where: "type", ptype | sort: "order" | reverse %}
+		{% assign pubs = site.data.publications.references | where: "type", ptype | sort: "year" | reverse %}
+
 		<ol reversed class="publist" type="1" style="list-style-position: outside;">
 			{% for pub in pubs %}
 				{% include single_pub.html pub=pub %}
