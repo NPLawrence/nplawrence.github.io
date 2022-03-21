@@ -10,6 +10,11 @@ author_profile: true
 
 I'm a PhD candidate in {{ site.author.discipline }} at the {{ site.author.employer }} ({{ site.author.employer_short }}) under the supervision of [{{ sup1.name}}]({{ sup1.url }}) and [{{ sup2.name }}]({{ sup2.url }}). I'm interested in developing actionable control methods based on deep reinforcement learning for real-world applications.
 
+News
+======
+
+We are organizing a half-day workshop at AdCONIP 2022 on reinforcement learning to be held on August 7th 2022. Further details on the [conference webpage](https://adconip2022.org/workshops/#workshop-2-making-reinforcement-learning-a-practical-technology-for-industrial-control).
+
 Publications
 ======
 

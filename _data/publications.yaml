@@ -51,6 +51,7 @@ references:
       given: Nathan
   citation-key: lawrence2016ConvexNonconvex
   DOI: 10.15760/honors.319
+  issued:
   year: 2016
   publisher: Portland State University
   source: DOI.org (Crossref)
@@ -65,7 +66,8 @@ references:
     - family: Lawrence
       given: Nathan
   citation-key: lawrence2018LowDimensionalCharacterization
-  year: 2018
+  issued:
+    - year: 2018
   publisher: Portland State University
   source: Zotero
   title: Low-Dimensional Characterization of Human Faces from Gappy Data
@@ -229,6 +231,32 @@ references:
   type: paper-conference
   URL: https://linkinghub.elsevier.com/retrieve/pii/S2405896321010958
   volume: '54'
+
+- id: mcclement2022MetaReinforcement
+  accessed:
+    - year: 2022
+      month: 3
+      day: 21
+  author:
+    - family: McClement
+      given: Daniel G.
+    - family: Lawrence
+      given: Nathan P.
+    - family: Backstrom
+      given: Johan U.
+    - family: Loewen
+      given: Philip D.
+    - family: Forbes
+      given: Michael G.
+    - family: Gopaluni
+      given: R. Bhushan
+  citation-key: mcclement2022MetaReinforcement
+  year: 2022
+  source: arXiv.org
+  title: 'Meta Reinforcement Learning for Adaptive Control: An Offline Approach'
+  title-short: Meta Reinforcement Learning for Adaptive Control
+  type: manuscript
+  URL: http://arxiv.org/abs/2203.09661
 
 - id: spielberg2019SelfDriving
   accessed:
