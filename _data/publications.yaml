@@ -25,8 +25,7 @@ references:
   container-title-short: IFAC World Congr.
   DOI: https://doi.org/10.1016/j.ifacol.2020.12.126
   event-title: IFAC World Congress
-  issued:
-    - year: 2020
+  year: 2020
   page: 218–229
   publisher: Elsevier
   title: >-
@@ -45,8 +44,7 @@ references:
       given: Nathan
   citation-key: lawrence2016ConvexNonconvex
   DOI: 10.15760/honors.319
-  issued:
-    - year: 2016
+  year: 2016
   license: All rights reserved
   publisher: Portland State University
   source: DOI.org (Crossref)
@@ -61,8 +59,7 @@ references:
     - family: Lawrence
       given: Nathan
   citation-key: lawrence2018LowDimensionalCharacterization
-  issued:
-    - year: 2018
+  year: 2018
   license: All rights reserved
   publisher: Portland State University
   source: Zotero
@@ -90,8 +87,7 @@ references:
   container-title: Advances in Neural Information Processing Systems
   container-title-short: Adv. Neural Inf. Process. Syst.
   event-title: NeurIPS
-  issued:
-    - year: 2020
+  year: 2020
   license: All rights reserved
   note: NeurIPS Spotlight
   source: papers.nips.cc
@@ -123,8 +119,7 @@ references:
   container-title: IFAC World Congress
   container-title-short: IFAC World Congr.
   event-title: IFAC World Congress
-  issued:
-    - year: 2020
+  year: 2020
   license: All rights reserved
   source: arXiv.org
   title: >-
@@ -156,8 +151,7 @@ references:
   container-title-short: IFAC World Congr.
   DOI: 10.1016/j.ifacol.2020.12.127
   event-title: IFAC World Congress
-  issued:
-    - year: 2020
+  year: 2020
   license: All rights reserved
   page: 230-235
   source: DOI.org (Crossref)
@@ -190,8 +184,7 @@ references:
   container-title-short: Control Engineering Practice
   DOI: 10.1016/j.conengprac.2021.105046
   ISSN: '09670661'
-  issued:
-    - year: 2022
+  year: 2022
   page: '105046'
   source: DOI.org (Crossref)
   title: >-
@@ -226,8 +219,7 @@ references:
   container-title-short: IFAC-Pap.
   DOI: 10.1016/j.ifacol.2021.08.321
   event-title: AdCHEM
-  issued:
-    - year: 2021
+  year: 2021
   note: Keynote Paper
   page: 685-692
   source: DOI.org (Crossref)
@@ -259,8 +251,7 @@ references:
   container-title: Journal of Process Control
   container-title-short: J. Process Control
   DOI: 10.1016/j.jprocont.2022.08.002
-  issued:
-    - year: 2022
+  year: 2022
   page: 139-152
   source: DOI.org (Crossref)
   title: >-
@@ -292,8 +283,7 @@ references:
       given: R. Bhushan
   citation-key: mcclement2022MetaReinforcementLearning
   event-title: AdCONIP
-  issued:
-    - year: 2022
+  year: 2022
   publisher: arXiv
   source: arXiv.org
   title: Meta-Reinforcement Learning for Adaptive Control of Second Order Systems
@@ -321,8 +311,7 @@ references:
   container-title: AIChE Journal
   container-title-short: AIChE J.
   DOI: 10.1002/aic.16689
-  issued:
-    - year: 2019
+  year: 2019
   license: All rights reserved
   source: DOI.org (Crossref)
   title: >-
