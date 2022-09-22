@@ -2,15 +2,15 @@
 
 <!-- {% assign papertypes = site.publications | map: "type" | sort: "year" | uniq | reverse %} -->
 
-{% assign papertypes = "manuscript,article-journal,paper-conference,thesis" | split:"," %}
+{% assign papertypes = "article-journal,paper-conference,thesis" | split:"," %}
 
 <ol reversed class="list-nostyle" type="1" style="list-style-position: inside;">
 
 	{% for ptype in papertypes %}
 
 	<li class="nostyle">
-		{% if ptype == "manuscript" %}
-			<i>Preprints</i>
+	  {% if ptype == "manuscript" %}
+	    <i>Preprints</i>
 	  {% elsif ptype == "article-journal" %}
 	    <i>Journal Papers</i>
 	  {% elsif ptype == "paper-conference" %}
