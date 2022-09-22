@@ -1,13 +1,9 @@
 ---
 references:
-- id: gopaluni2020ModernMachine
-  accessed:
-    - year: 2021
-      month: 4
-      day: 28
+- id: gopaluniModernMachine
   author:
     - family: Gopaluni
-      given: R. Bhushan
+      given: R Bhushan
     - family: Tulsyan
       given: Aditya
     - family: Chachuat
@@ -23,23 +19,17 @@ references:
     - family: Kim
       given: Jong Woo
     - family: Lawrence
-      given: Nathan P.
-  citation-key: gopaluni2020ModernMachine
-  container-title: IFAC-PapersOnLine
-  DOI: 10.1016/j.ifacol.2020.12.126
-  event: IFAC World Congress
-  year: 2020
-  page: 218-229
-  source: DOI.org (Crossref)
+      given: Nathan P
+  citation-key: gopaluniModernMachine
+  container-title: IFAC World Congress
+  container-title-short: IFAC World Congr.
+  license: All rights reserved
+  page: '12'
+  source: Zotero
   title: >-
     Modern Machine Learning Tools for Monitoring and Control of Industrial
     Processes: A Survey
-  title-short: >-
-    Modern Machine Learning Tools for Monitoring and Control of Industrial
-    Processes
   type: paper-conference
-  URL: https://linkinghub.elsevier.com/retrieve/pii/S2405896320303827
-  volume: '53'
 
 - id: lawrence2016ConvexNonconvex
   accessed:
@@ -52,7 +42,10 @@ references:
   citation-key: lawrence2016ConvexNonconvex
   DOI: 10.15760/honors.319
   issued:
-  year: 2016
+    - year: 2016
+      month: 1
+      day: 1
+  license: All rights reserved
   publisher: Portland State University
   source: DOI.org (Crossref)
   title: >-
@@ -68,6 +61,7 @@ references:
   citation-key: lawrence2018LowDimensionalCharacterization
   issued:
     - year: 2018
+  license: All rights reserved
   publisher: Portland State University
   source: Zotero
   title: Low-Dimensional Characterization of Human Faces from Gappy Data
@@ -92,8 +86,11 @@ references:
       given: Bhushan
   citation-key: lawrence2020AlmostSurely
   container-title: Advances in Neural Information Processing Systems
-  event: NeurIPS
-  year: 2020
+  container-title-short: Adv. Neural Inf. Process. Syst.
+  event-title: NeurIPS
+  issued:
+    - year: 2020
+  license: All rights reserved
   note: NeurIPS Spotlight
   source: papers.nips.cc
   title: Almost Surely Stable Deep Dynamics
@@ -102,12 +99,11 @@ references:
     https://papers.nips.cc/paper/2020/hash/daecf755df5b1d637033bb29b319c39a-Abstract.html
   volume: '33'
 
-- id: lawrence2020OptimalPID
+- id: lawrence2020OptimalPIDa
   accessed:
-    - year: 2021
-      month: 4
-      day: 28
-  archive: https://arxiv.org/abs/2005.04539
+    - year: 2020
+      month: 12
+      day: 22
   author:
     - family: Lawrence
       given: Nathan P.
@@ -121,19 +117,19 @@ references:
       given: Johan U.
     - family: Gopaluni
       given: R. Bhushan
-  citation-key: lawrence2020OptimalPID
-  container-title: IFAC-PapersOnLine
-  DOI: 10.1016/j.ifacol.2020.12.129
-  event: IFAC World Congress
-  year: 2020
-  page: 236-241
-  source: DOI.org (Crossref)
+  citation-key: lawrence2020OptimalPIDa
+  container-title: IFAC World Congress
+  container-title-short: IFAC World Congr.
+  issued:
+    - year: 2020
+      month: 5
+      day: 9
+  license: All rights reserved
+  source: arXiv.org
   title: >-
     Optimal PID and Antiwindup Control Design as a Reinforcement Learning
     Problem
   type: paper-conference
-  URL: https://linkinghub.elsevier.com/retrieve/pii/S2405896320303852
-  volume: '53'
 
 - id: lawrence2020ReinforcementLearning
   accessed:
@@ -156,9 +152,12 @@ references:
       given: R. Bhushan
   citation-key: lawrence2020ReinforcementLearning
   container-title: IFAC-PapersOnLine
+  container-title-short: IFAC-Pap.
   DOI: 10.1016/j.ifacol.2020.12.127
-  event: IFAC World Congress
-  year: 2020
+  event-title: IFAC World Congress
+  issued:
+    - year: 2020
+  license: All rights reserved
   page: 230-235
   source: DOI.org (Crossref)
   title: Reinforcement Learning based Design of Linear Fixed Structure Controllers
@@ -190,7 +189,9 @@ references:
   container-title-short: Control Engineering Practice
   DOI: 10.1016/j.conengprac.2021.105046
   ISSN: '09670661'
-  year: 2022
+  issued:
+    - year: 2022
+      month: 4
   page: '105046'
   source: DOI.org (Crossref)
   title: >-
@@ -201,7 +202,7 @@ references:
   URL: https://linkinghub.elsevier.com/retrieve/pii/S0967066121002963
   volume: '121'
 
-- id: mcclement2021MetaReinforcementLearning
+- id: mcclement2021MetaReinforcementLearninga
   accessed:
     - year: 2021
       month: 9
@@ -220,10 +221,12 @@ references:
       given: Johan U.
     - family: Gopaluni
       given: R. Bhushan
-  citation-key: mcclement2021MetaReinforcementLearning
+  citation-key: mcclement2021MetaReinforcementLearninga
   container-title: IFAC-PapersOnLine
+  container-title-short: IFAC-Pap.
   DOI: 10.1016/j.ifacol.2021.08.321
-  year: 2021
+  issued:
+    - year: 2021
   note: Keynote Paper
   page: 685-692
   source: DOI.org (Crossref)
@@ -232,17 +235,18 @@ references:
   URL: https://linkinghub.elsevier.com/retrieve/pii/S2405896321010958
   volume: '54'
 
-- id: mcclement2022MetaReinforcement
+- id: mcclement2022MetareinforcementLearning
   accessed:
     - year: 2022
-      month: 3
-      day: 21
+      month: 9
+      day: 19
+  archive: https://arxiv.org/abs/2203.09661
   author:
     - family: McClement
       given: Daniel G.
     - family: Lawrence
       given: Nathan P.
-    - family: Backstrom
+    - family: Backström
       given: Johan U.
     - family: Loewen
       given: Philip D.
@@ -250,15 +254,54 @@ references:
       given: Michael G.
     - family: Gopaluni
       given: R. Bhushan
-  citation-key: mcclement2022MetaReinforcement
-  year: 2022
-  source: arXiv.org
-  title: 'Meta Reinforcement Learning for Adaptive Control: An Offline Approach'
-  title-short: Meta Reinforcement Learning for Adaptive Control
-  type: manuscript
-  URL: http://arxiv.org/abs/2203.09661
+  citation-key: mcclement2022MetareinforcementLearning
+  container-title: Journal of Process Control
+  container-title-short: J. Process Control
+  DOI: 10.1016/j.jprocont.2022.08.002
+  issued:
+    - year: 2022
+      month: 10
+  page: 139-152
+  source: DOI.org (Crossref)
+  title: >-
+    Meta-reinforcement learning for the tuning of PI controllers: An offline
+    approach
+  title-short: Meta-reinforcement learning for the tuning of PI controllers
+  type: article-journal
+  URL: https://linkinghub.elsevier.com/retrieve/pii/S0959152422001445
+  volume: '118'
 
-- id: spielberg2019SelfDriving
+- id: mcclement2022MetaReinforcementLearning
+  accessed:
+    - year: 2022
+      month: 9
+      day: 22
+  archive: https://arxiv.org/abs/2209.09301
+  author:
+    - family: McClement
+      given: Daniel G.
+    - family: Lawrence
+      given: Nathan P.
+    - family: Forbes
+      given: Michael G.
+    - family: Loewen
+      given: Philip D.
+    - family: Backström
+      given: Johan U.
+    - family: Gopaluni
+      given: R. Bhushan
+  citation-key: mcclement2022MetaReinforcementLearning
+  issued:
+    - year: 2022
+      month: 9
+      day: 19
+  publisher: arXiv
+  source: arXiv.org
+  title: Meta-Reinforcement Learning for Adaptive Control of Second Order Systems
+  type: paper-conference
+  URL: http://arxiv.org/abs/2209.09301
+
+- id: spielberg2019SelfDrivinga
   accessed:
     - year: 2020
       month: 12
@@ -275,10 +318,14 @@ references:
       given: Philip D.
     - family: Bhushan Gopaluni
       given: R.
-  citation-key: spielberg2019SelfDriving
+  citation-key: spielberg2019SelfDrivinga
   container-title: AIChE Journal
+  container-title-short: AIChE J.
   DOI: 10.1002/aic.16689
-  year: 2019
+  issued:
+    - year: 2019
+      month: 10
+  license: All rights reserved
   source: DOI.org (Crossref)
   title: >-
     Toward self‐driving processes: A deep reinforcement learning approach to
@@ -288,3 +335,4 @@ references:
   URL: https://onlinelibrary.wiley.com/doi/abs/10.1002/aic.16689
   volume: '65'
 ...
+
