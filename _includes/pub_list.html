@@ -21,7 +21,7 @@
 			<i>Theses</i>
 	  {% endif %}
 
-		{% assign pubs = site.data.publications.references | where: "type", ptype | sort: "issued[0]" | reverse %}
+		{% assign pubs = site.data.publications.references | where: "type", ptype | sort: "year" | reverse %}
 
 		<ol reversed class="publist" type="1" style="list-style-position: outside;">
 			{% for pub in pubs %}
