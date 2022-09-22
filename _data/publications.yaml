@@ -1,6 +1,6 @@
 ---
 references:
-- id: gopaluniModernMachine
+- id: gopaluni2020modern
   author:
     - family: Gopaluni
       given: R Bhushan
@@ -20,16 +20,19 @@ references:
       given: Jong Woo
     - family: Lawrence
       given: Nathan P
-  citation-key: gopaluniModernMachine
+  citation-key: gopaluni2020modern
   container-title: IFAC World Congress
   container-title-short: IFAC World Congr.
-  license: All rights reserved
-  page: '12'
-  source: Zotero
+  DOI: https://doi.org/10.1016/j.ifacol.2020.12.126
+  issued:
+    - year: 2020
+  page: 218–229
+  publisher: Elsevier
   title: >-
-    Modern Machine Learning Tools for Monitoring and Control of Industrial
-    Processes: A Survey
+    Modern machine learning tools for monitoring and control of industrial
+    processes: A survey
   type: paper-conference
+  volume: '53'
 
 - id: lawrence2016ConvexNonconvex
   accessed:
@@ -43,8 +46,6 @@ references:
   DOI: 10.15760/honors.319
   issued:
     - year: 2016
-      month: 1
-      day: 1
   license: All rights reserved
   publisher: Portland State University
   source: DOI.org (Crossref)
@@ -99,7 +100,7 @@ references:
     https://papers.nips.cc/paper/2020/hash/daecf755df5b1d637033bb29b319c39a-Abstract.html
   volume: '33'
 
-- id: lawrence2020OptimalPIDa
+- id: lawrence2020OptimalPID
   accessed:
     - year: 2020
       month: 12
@@ -117,13 +118,11 @@ references:
       given: Johan U.
     - family: Gopaluni
       given: R. Bhushan
-  citation-key: lawrence2020OptimalPIDa
+  citation-key: lawrence2020OptimalPID
   container-title: IFAC World Congress
   container-title-short: IFAC World Congr.
   issued:
     - year: 2020
-      month: 5
-      day: 9
   license: All rights reserved
   source: arXiv.org
   title: >-
@@ -191,7 +190,6 @@ references:
   ISSN: '09670661'
   issued:
     - year: 2022
-      month: 4
   page: '105046'
   source: DOI.org (Crossref)
   title: >-
@@ -260,7 +258,6 @@ references:
   DOI: 10.1016/j.jprocont.2022.08.002
   issued:
     - year: 2022
-      month: 10
   page: 139-152
   source: DOI.org (Crossref)
   title: >-
@@ -293,15 +290,13 @@ references:
   citation-key: mcclement2022MetaReinforcementLearning
   issued:
     - year: 2022
-      month: 9
-      day: 19
   publisher: arXiv
   source: arXiv.org
   title: Meta-Reinforcement Learning for Adaptive Control of Second Order Systems
   type: paper-conference
   URL: http://arxiv.org/abs/2209.09301
 
-- id: spielberg2019SelfDrivinga
+- id: spielberg2019SelfDriving
   accessed:
     - year: 2020
       month: 12
@@ -318,13 +313,12 @@ references:
       given: Philip D.
     - family: Bhushan Gopaluni
       given: R.
-  citation-key: spielberg2019SelfDrivinga
+  citation-key: spielberg2019SelfDriving
   container-title: AIChE Journal
   container-title-short: AIChE J.
   DOI: 10.1002/aic.16689
   issued:
     - year: 2019
-      month: 10
   license: All rights reserved
   source: DOI.org (Crossref)
   title: >-
