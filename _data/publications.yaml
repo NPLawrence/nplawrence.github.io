@@ -32,6 +32,7 @@ references:
     Modern machine learning tools for monitoring and control of industrial
     processes: A survey
   type: paper-conference
+  URL: https://www.sciencedirect.com/science/article/pii/S2405896320303827
   volume: '53'
 
 - id: lawrence2016ConvexNonconvex
