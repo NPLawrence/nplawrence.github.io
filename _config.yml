@@ -81,7 +81,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Nathan P. Lawrence"
+  name             : "Nathan Lawrence"
   short_name       : "Nathan Lawrence"
   avatar           : "nathan.jpg"
   bio              : "Deep reinforcement learning <br> Optimization and control <br> Engineering applications"
