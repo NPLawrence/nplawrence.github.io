@@ -284,12 +284,13 @@ references:
   citation-key: mcclement2022MetaReinforcementLearning
   container-title: AdCONIP
   event-title: AdCONIP
+  DOI: 10.1109/AdCONIP55568.2022.9894150
   year: 2022
   publisher: arXiv
   source: arXiv.org
   title: Meta-Reinforcement Learning for Adaptive Control of Second Order Systems
   type: paper-conference
-  URL: http://arxiv.org/abs/2209.09301
+  URL: https://ieeexplore.ieee.org/document/9894150
 
 - id: spielberg2019SelfDriving
   accessed:
