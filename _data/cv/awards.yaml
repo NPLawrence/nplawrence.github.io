@@ -1,3 +1,11 @@
+- name: Graduate Research Award
+  year: 2022
+  year_end: present
+  degree: Doctoral
+  amount: CAN $2,500 
+  institution: The University of British Columbia
+  inst_short: UBC
+
 - name: Alexander Graham Bell Canada Graduate Scholarship
   year: 2020
   year_end: present
