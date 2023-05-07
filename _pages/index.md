@@ -8,7 +8,13 @@ author_profile: true
 {% assign sup1 = site.author.supervisors[0] %}
 {% assign sup2 = site.author.supervisors[1] %}
 
-I recently completed my PhD in {{ site.author.discipline }} at the {{ site.author.employer }} ({{ site.author.employer_short }}) under the supervision of [{{ sup1.name}}]({{ sup1.url }}) and [{{ sup2.name }}]({{ sup2.url }}). I'm interested in developing actionable control methods based on deep reinforcement learning for real-world applications.
+I recently completed my PhD!
+
+My degree is in {{ site.author.discipline }} at the {{ site.author.employer }} ({{ site.author.employer_short }}) and I studied under the supervision of [{{ sup1.name}}]({{ sup1.url }}) and [{{ sup2.name }}]({{ sup2.url }}).
+Here you can find my thesis on [Deep reinforcement learning (RL) agents for industrial control system design](https://open.library.ubc.ca/collections/24/items/1.0430547).
+I'm interested in developing actionable control methods based on RL for real-world applications.
+The first part of my thesis focuses on the practical implementation of RL and meta-RL for PID tuning.
+I later developed a general method for synthesizing stabilizing controllers with any RL algorithm using input-output data.
 
 {% comment %}
 News
