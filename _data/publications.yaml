@@ -230,10 +230,9 @@ references:
       given: Nathan P.
   citation-key: lawrence2023DeepReinforcement
   genre: Text
-  issued:
-    - year: 2023
+  year: 2023
   title: Deep reinforcement learning agents for industrial control system design
-  type: report
+  type: thesis
   URL: https://open.library.ubc.ca/collections/24/items/1.0430547
   
 - id: lawrence2023ModularFramework
@@ -255,6 +254,7 @@ references:
       given: R. Bhushan
   citation-key: lawrence2023ModularFramework
   DOI: 10.48550/arXiv.2304.03422
+  event-title: IFAC World Congress
   year: 2023
   source: arXiv.org
   title: A modular framework for stabilizing deep reinforcement learning control
@@ -409,13 +409,11 @@ references:
       given: R. Bhushan
   citation-key: wang2023ReinforcementLearning
   DOI: 10.48550/arXiv.2304.13223
-  issued:
-    - year: 2023
-      month: 4
-      day: 25
+  event-title: IFAC World Congress
+  year: 2023
   source: arXiv.org
   title: Reinforcement learning with partial parametric model knowledge
-  type: article-journal
+  type: paper-conference
   URL: http://arxiv.org/abs/2304.13223
 ...
 
