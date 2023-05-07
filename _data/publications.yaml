@@ -1,10 +1,39 @@
 ---
 references:
+
+- id: alabi2023AutomatedDeep
+  archive: https://arxiv.org/abs/2301.07768
+  author:
+    - family: Alabi
+      given: Tobi Michael
+    - family: Lawrence
+      given: Nathan P.
+    - family: Lu
+      given: Lin
+    - family: Yang
+      given: Zaiyue
+    - family: Bhushan Gopaluni
+      given: R.
+  citation-key: alabi2023AutomatedDeep
+  container-title: Applied Energy
+  container-title-short: Applied Energy
+  DOI: 10.1016/j.apenergy.2022.120633
+  ISSN: 0306-2619
+  year: 2023
+  page: '120633'
+  title: >-
+    Automated deep reinforcement learning for real-time scheduling strategy of
+    multi-energy system integrated with post-carbon and direct-air carbon
+    captured system
+  type: article-journal
+  URL: https://www.sciencedirect.com/science/article/pii/S0306261922018906
+  volume: '333'
+
 - id: gopaluni2020ModernMachine
   archive: https://arxiv.org/abs/2209.11123
   author:
     - family: Gopaluni
-      given: R Bhushan
+      given: R. Bhushan
     - family: Tulsyan
       given: Aditya
     - family: Chachuat
@@ -20,7 +49,7 @@ references:
     - family: Kim
       given: Jong Woo
     - family: Lawrence
-      given: Nathan P
+      given: Nathan P.
   citation-key: gopaluni2020ModernMachine
   container-title: IFAC-PapersOnLine
   container-title-short: IFAC-Pap.
@@ -50,8 +79,8 @@ references:
   publisher: Portland State University
   source: DOI.org (Crossref)
   title: >-
-    Convex and Nonconvex Optimization Techniques for the Constrained
-    Fermat-Torricelli Problem
+    Convex and nonconvex optimization techniques for the constrained
+    Fermat-Torricelli problem
   type: thesis
   URL: http://archives.pdx.edu/ds/psu/17431
 
@@ -64,7 +93,7 @@ references:
   license: All rights reserved
   publisher: Portland State University
   source: Zotero
-  title: Low-Dimensional Characterization of Human Faces from Gappy Data
+  title: Low-dimensional characterization of human faces from gappy data
   type: report
 
 - id: lawrence2020AlmostSurely
@@ -75,15 +104,15 @@ references:
   archive: https://arxiv.org/abs/2103.14722
   author:
     - family: Lawrence
-      given: Nathan
+      given: Nathan P.
     - family: Loewen
-      given: Philip
+      given: Philip D.
     - family: Forbes
-      given: Michael
-    - family: Backstrom
-      given: Johan
+      given: Michael G.
+    - family: Backström
+      given: Johan U.
     - family: Gopaluni
-      given: Bhushan
+      given: R. Bhushan
   citation-key: lawrence2020AlmostSurely
   container-title: Advances in Neural Information Processing Systems
   container-title-short: Adv. Neural Inf. Process. Syst.
@@ -102,17 +131,17 @@ references:
   archive: https://arxiv.org/abs/2005.04539
   author:
     - family: Lawrence
-      given: Nathan P
+      given: Nathan P.
     - family: Stewart
-      given: Gregory E
+      given: Gregory E.
     - family: Loewen
-      given: Philip D
+      given: Philip D.
     - family: Forbes
-      given: Michael G
-    - family: Backstrom
-      given: Johan U
+      given: Michael G.
+    - family: Backström
+      given: Johan U.
     - family: Gopaluni
-      given: R Bhushan
+      given: R. Bhushan
   citation-key: lawrence2020OptimalPID
   container-title: IFAC-PapersOnLine
   container-title-short: IFAC-Pap.
@@ -155,7 +184,7 @@ references:
   license: All rights reserved
   page: 230-235
   source: DOI.org (Crossref)
-  title: Reinforcement Learning based Design of Linear Fixed Structure Controllers
+  title: Reinforcement learning based design of linear fixed structure controllers
   type: paper-conference
   URL: https://linkinghub.elsevier.com/retrieve/pii/S2405896320303839
   volume: '53'
@@ -194,6 +223,43 @@ references:
   type: article-journal
   URL: https://linkinghub.elsevier.com/retrieve/pii/S0967066121002963
   volume: '121'
+  
+- id: lawrence2023DeepReinforcement
+  author:
+    - family: Lawrence
+      given: Nathan P.
+  citation-key: lawrence2023DeepReinforcement
+  genre: Text
+  issued:
+    - year: 2023
+  title: Deep reinforcement learning agents for industrial control system design
+  type: report
+  URL: https://open.library.ubc.ca/collections/24/items/1.0430547
+  
+- id: lawrence2023ModularFramework
+  accessed:
+    - year: 2023
+      month: 4
+      day: 11
+  archive: http://arxiv.org/abs/2304.03422
+  author:
+    - family: Lawrence
+      given: Nathan P.
+    - family: Loewen
+      given: Philip D.
+    - family: Wang
+      given: Shuyuan
+    - family: Forbes
+      given: Michael G.
+    - family: Gopaluni
+      given: R. Bhushan
+  citation-key: lawrence2023ModularFramework
+  DOI: 10.48550/arXiv.2304.03422
+  year: 2023
+  source: arXiv.org
+  title: A modular framework for stabilizing deep reinforcement learning control
+  type: paper-conference
+  URL: http://arxiv.org/abs/2304.03422
 
 - id: mcclement2021MetaReinforcementLearning
   accessed:
@@ -223,7 +289,7 @@ references:
   note: Keynote Paper
   page: 685-692
   source: DOI.org (Crossref)
-  title: A Meta-Reinforcement Learning Approach to Process Control
+  title: A meta-reinforcement learning approach to process control
   type: paper-conference
   URL: https://linkinghub.elsevier.com/retrieve/pii/S2405896321010958
   volume: '54'
@@ -288,7 +354,7 @@ references:
   year: 2022
   publisher: arXiv
   source: arXiv.org
-  title: Meta-Reinforcement Learning for Adaptive Control of Second Order Systems
+  title: Meta-reinforcement learning for adaptive control of second order systems
   type: paper-conference
   URL: https://ieeexplore.ieee.org/document/9894150
 
@@ -307,8 +373,8 @@ references:
       given: Nathan P.
     - family: Loewen
       given: Philip D.
-    - family: Bhushan Gopaluni
-      given: R.
+    - family: Gopaluni
+      given: R. Bhushan
   citation-key: spielberg2019SelfDriving
   container-title: AIChE Journal
   container-title-short: AIChE J.
@@ -323,5 +389,33 @@ references:
   type: article-journal
   URL: https://onlinelibrary.wiley.com/doi/abs/10.1002/aic.16689
   volume: '65'
+  
+- id: wang2023ReinforcementLearning
+  accessed:
+    - year: 2023
+      month: 5
+      day: 7
+  archive: http://arxiv.org/abs/2304.13223
+  author:
+    - family: Wang
+      given: Shuyuan
+    - family: Loewen
+      given: Philip D.
+    - family: Lawrence
+      given: Nathan P.
+    - family: Forbes
+      given: Michael G.
+    - family: Gopaluni
+      given: R. Bhushan
+  citation-key: wang2023ReinforcementLearning
+  DOI: 10.48550/arXiv.2304.13223
+  issued:
+    - year: 2023
+      month: 4
+      day: 25
+  source: arXiv.org
+  title: Reinforcement learning with partial parametric model knowledge
+  type: article-journal
+  URL: http://arxiv.org/abs/2304.13223
 ...
 
