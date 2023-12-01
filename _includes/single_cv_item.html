@@ -52,10 +52,7 @@
   {% endif %}
 
 
-  {% if var.advisors %}
-  {% assign advisorlist = {{var.advisors | map: "name" }} %}
-  {% if advisorlist.size > 1 %}Advisors: {% else %} Advisor: {% endif %} {{ advisorlist | join: ", "}}
-  <br>
+
   {% elsif var.students%}
   {% assign studentlist = {{var.students | map: "name" }} %}
   Student{% if studentlist.size > 1 %}s: {% endif %} {{ studentlist | join: ", "}}
