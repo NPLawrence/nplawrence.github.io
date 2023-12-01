@@ -3,8 +3,8 @@
   institution: Portland State University Honors College
   inst_short: PSU
   degree: Mathematics
-  year: 2013
-  year_end: 2016
+  year: 2016
+  year_end: 
   note: Graduated summa cum laude and with departmental honors
   advisors:
     - name: "Mau Nam Nguyen"
@@ -15,7 +15,7 @@
   inst_short: PSU
   degree: Mathematics
   year: 2016
-  year_end: 2018
+  year_end: 
   advisors:
     - name: "Dacian Daescu"
       url: "http://web.pdx.edu/~daescu/"
@@ -24,8 +24,8 @@
   institution: The University of British Columbia
   inst_short: UBC
   degree: Mathematics
-  year: 2018
-  year_end: 2023
+  year: 2023
+  year_end: 
   advisors:
     - name  : "Philip Loewen"
       url   : "https://secure.math.ubc.ca/~loew/"
