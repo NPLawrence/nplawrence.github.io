@@ -8,7 +8,7 @@ author_profile: true
 {% assign sup1 = site.author.supervisors[0] %}
 {% assign sup2 = site.author.supervisors[1] %}
 
-I'm a postdoc at {{ site.author.employer }} ({{ site.author.employer_short }}).
+I'm a postdoc at the {{ site.author.employer }} ({{ site.author.employer_short }}).
 My work focuses on actionable control methods based on RL for real-world applications.
 As a postdoc and beyond, my plans are to solidify the many tantalizing connections among RL, model predictive control, and ReLU DNN structures.
 Mainly, there are sparse *structural*, *functional*, and *algorithmic* connections at play.
