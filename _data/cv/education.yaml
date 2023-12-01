@@ -4,7 +4,6 @@
   inst_short: PSU
   degree: Mathematics
   year: 2016
-  year_end: 
   note: Graduated summa cum laude and with departmental honors
   advisors:
     - name: "Mau Nam Nguyen"
@@ -15,7 +14,6 @@
   inst_short: PSU
   degree: Mathematics
   year: 2016
-  year_end: 
   advisors:
     - name: "Dacian Daescu"
       url: "http://web.pdx.edu/~daescu/"
@@ -25,7 +23,6 @@
   inst_short: UBC
   degree: Mathematics
   year: 2023
-  year_end: 
   advisors:
     - name  : "Philip Loewen"
       url   : "https://secure.math.ubc.ca/~loew/"
