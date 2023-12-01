@@ -14,8 +14,8 @@ As a postdoc and beyond, my plans are to solidify the many tantalizing connectio
 Mainly, there are sparse *structural*, *functional*, and *algorithmic* connections at play.
 A unified viewpoint of all three would make RL more appealing for real-world applications while also making MPC more flexible and scalable under general learning algorithms.
 
-My PhD is in {{ site.author.discipline }} from UBC and I studied under the supervision of [{{ sup1.name}}]({{ sup1.url }}) and [{{ sup2.name }}]({{ sup2.url }}).
-Here you can find my thesis on [Deep reinforcement learning (RL) agents for industrial control system design](https://open.library.ubc.ca/collections/24/items/1.0430547).
+My PhD is in {{ site.author.discipline }} from UBC where I worked with [{{ sup1.name}}]({{ sup1.url }}) and [{{ sup2.name }}]({{ sup2.url }}).
+Here you can find my thesis on [Deep reinforcement learning agents for industrial control system design](https://open.library.ubc.ca/collections/24/items/1.0430547).
 The first part of my thesis focuses on the practical implementation of RL and meta-RL for PID tuning.
 I later developed a general method for synthesizing stabilizing controllers with any RL algorithm using input-output data.
 The domain for this work is industrial process control.
