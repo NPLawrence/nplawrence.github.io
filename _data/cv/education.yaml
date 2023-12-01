@@ -7,7 +7,7 @@
   year_end: 2016
   note: Graduated summa cum laude and with departmental honors
   advisors:
-    - name: "Dr. Mau Nam Nguyen"
+    - name: "Mau Nam Nguyen"
       url: "http://web.pdx.edu/~mnn3/"
 - name: MS
   name_full: Master of Science
@@ -17,18 +17,18 @@
   year: 2016
   year_end: 2018
   advisors:
-    - name: "Dr. Dacian Daescu"
+    - name: "Dacian Daescu"
       url: "http://web.pdx.edu/~daescu/"
 - name: PhD
   name_full: Doctor of Philosophy
   institution: The University of British Columbia
   inst_short: UBC
-  degree: Applied Mathematics
+  degree: Mathematics
   year: 2018
   year_end: "Present"
   note: 2023
   advisors:
-    - name  : "Dr. Philip Loewen"
+    - name  : "Philip Loewen"
       url   : "https://secure.math.ubc.ca/~loew/"
-    - name  : "Dr. Bhushan Gopaluni"
+    - name  : "Bhushan Gopaluni"
       url   : "https://dais.chbe.ubc.ca"
