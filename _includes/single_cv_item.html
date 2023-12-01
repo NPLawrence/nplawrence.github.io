@@ -53,7 +53,7 @@
 
 
 
-  {% elsif var.students%}
+  {% if var.students%}
   {% assign studentlist = {{var.students | map: "name" }} %}
   Student{% if studentlist.size > 1 %}s: {% endif %} {{ studentlist | join: ", "}}
   <br>
