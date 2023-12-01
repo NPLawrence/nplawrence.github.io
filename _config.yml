@@ -92,9 +92,9 @@ author:
   department       : "Department of Mathematics"
   position         : "PhD candidate"
   supervisors      :
-    - name  : "Dr. Philip Loewen"
+    - name  : "Philip Loewen"
       url   : "https://secure.math.ubc.ca/~loew/"
-    - name  : "Dr. Bhushan Gopaluni"
+    - name  : "Bhushan Gopaluni"
       url   : "https://dais.chbe.ubc.ca"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=Fe9p7QoAAAAJ&hl"
