@@ -25,8 +25,7 @@
   inst_short: UBC
   degree: Mathematics
   year: 2018
-  year_end: "Present"
-  note: 2023
+  year_end: 2023
   advisors:
     - name  : "Philip Loewen"
       url   : "https://secure.math.ubc.ca/~loew/"
