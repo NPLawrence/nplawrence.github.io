@@ -223,7 +223,7 @@ references:
   type: article-journal
   URL: https://linkinghub.elsevier.com/retrieve/pii/S0967066121002963
   volume: '121'
-  
+
 - id: lawrence2023DeepReinforcement
   author:
     - family: Lawrence
@@ -261,6 +261,80 @@ references:
   title: A modular framework for stabilizing deep reinforcement learning control
   type: paper-conference
   URL: http://arxiv.org/abs/2304.03422
+
+- id: lawrence2024MachineLearning
+  accessed:
+    - year: 2024
+      month: 1
+      day: 1
+  archive:
+  author:
+    - family: Lawrence
+      given: Nathan P.
+    - family: Damarla
+      given: Seshu Kumar
+    - family: Kim
+      given: Jong Woo
+    - family: Tulsyan
+      given: Aditya
+    - family: Amjad
+      given: Faraz
+    - family: Wang
+      given: Kai
+    - family: Chachuat
+      given: Benoit
+    - family: Lee
+      given: Jong Min
+    - family: Huang
+      given: Biao
+    - family: Gopaluni
+      given: R. Bhushan
+  citation-key: lawrence2024MachineLearning
+  container-title: Control Engineering Practice
+  container-title-short: Control Engineering Practice
+  DOI:
+  ISSN:
+  year: 2024 (Accepted)
+  page:
+  source:
+  title: >-
+    Machine learning techniques for industrial sensing and control: A survey and practical perspective
+  title-short:
+  type: article-journal
+  URL:
+  volume:
+
+- id: lawrence2024Stabilizing
+  accessed:
+    - year: 2024
+      month: 1
+      day: 1
+  archive: https://arxiv.org/abs/2310.14098
+  author:
+    - family: Lawrence
+      given: Nathan P.
+    - family: Loewen
+      given: Philip D.
+    - family: Wang
+      given: Shuyuan
+    - family: Forbes
+      given: Michael G.
+    - family: Gopaluni
+      given: R. Bhushan
+  citation-key: lawrence2024Stabilizing
+  container-title: Automatica
+  container-title-short: Automatica
+  DOI:
+  ISSN:
+  year: 2024 (Accepted)
+  page:
+  source: DOI.org (Crossref)
+  title: >-
+    Stabilizing reinforcement learning control: A modular framework for optimizing over all stable behavior
+  title-short:
+  type: article-journal
+  URL: https://arxiv.org/abs/2310.14098
+  volume:
 
 - id: mcclement2021MetaReinforcementLearning
   accessed:
