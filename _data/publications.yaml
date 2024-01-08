@@ -294,7 +294,7 @@ references:
   container-title-short: Control Engineering Practice
   DOI:
   ISSN:
-  year: 2024 (Accepted)
+  year: 2024
   page:
   source:
   title: >-
@@ -303,6 +303,7 @@ references:
   type: article-journal
   URL:
   volume:
+  note: In press
 
 - id: lawrence2024Stabilizing
   accessed:
@@ -326,7 +327,7 @@ references:
   container-title-short: Automatica
   DOI:
   ISSN:
-  year: 2024 (Accepted)
+  year: 2024
   page:
   source: DOI.org (Crossref)
   title: >-
@@ -335,6 +336,8 @@ references:
   type: article-journal
   URL: https://arxiv.org/abs/2310.14098
   volume:
+  note: In press
+
 
 - id: mcclement2021MetaReinforcementLearning
   accessed:
