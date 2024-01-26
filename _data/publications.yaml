@@ -267,7 +267,7 @@ references:
     - year: 2024
       month: 1
       day: 1
-  archive:
+  archive: https://arxiv.org/abs/2401.13836
   author:
     - family: Lawrence
       given: Nathan P.
