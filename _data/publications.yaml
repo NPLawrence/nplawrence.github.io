@@ -334,9 +334,9 @@ references:
     Stabilizing reinforcement learning control: A modular framework for optimizing over all stable behavior
   title-short:
   type: article-journal
-  URL: https://arxiv.org/abs/2310.14098
+  URL: https://doi.org/10.1016/j.automatica.2024.111642
   volume:
-  note: In press
+  note:
 
 
 - id: mcclement2021MetaReinforcementLearning
