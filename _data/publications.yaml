@@ -339,6 +339,39 @@ references:
   note:
 
 
+- id: lawrence2024DeepHankel
+  accessed:
+    - year: 2024
+      month: 1
+      day: 1
+  archive: http://arxiv.org/abs/2404.15512
+  author:
+    - family: Lawrence
+      given: Nathan P.
+    - family: Loewen
+      given: Philip D.
+    - family: Wang
+      given: Shuyuan
+    - family: Forbes
+      given: Michael G.
+    - family: Gopaluni
+      given: R. Bhushan
+  citation-key: lawrence2024DeepHankel
+  container-title: Learning for Dynamics & Control Conference
+  container-title-short: L4DC
+  DOI:
+  ISSN:
+  year: 2024
+  page:
+  source: DOI.org (Crossref)
+  title: >-
+    Deep Hankel matrices with random elements
+  title-short:
+  type: paper-conference
+  URL: http://arxiv.org/abs/2404.15512
+  volume:
+  note:
+
 - id: mcclement2021MetaReinforcementLearning
   accessed:
     - year: 2021
