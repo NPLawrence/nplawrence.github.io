@@ -11,12 +11,8 @@ updated: August 2021
 <!-- {{ site.author.position }} / {{ site.author.discipline }} / {{ site.author.employer }} -->
 
 <h6 class="no-print" style="text-align:right">
-(For a well-formatted* PDF, simply save or print this webpage.)
+([PDF](https://nplawrence.com/assets/Lawrence_CV.pdf))
 <br>
 </h6>
 # Nathan Lawrence's CV | "lawrence *at* math *dot* ubc *dot* ca"
 {% include cv-fromdata.html %}
-<h6 class="no-print" style="text-align:right">
-*with probability greater than zero
-<br>
-</h6>
