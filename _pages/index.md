@@ -8,11 +8,18 @@ author_profile: true
 {% assign sup1 = site.author.supervisors[0] %}
 {% assign sup2 = site.author.supervisors[1] %}
 
+Upper bound tutorial: Cheat sheet [here](https://nplawrence.com/assets/misc/cheat_sheet.pdf)
+
+
 I'm a postdoc at {{ site.author.employer_short }}.
-My work focuses on actionable control methods based on RL for real-world applications.
-As a postdoc and beyond, my plans are to solidify the many tantalizing connections among RL, model predictive control, and ReLU DNN structures.
-Mainly, there are sparse *structural*, *functional*, and *algorithmic* connections at play.
-A unified viewpoint of all three would make RL more appealing for real-world applications while also making MPC more flexible and scalable under general learning algorithms.
+
+
+The broad goal of my work is to unify machine learning and control theory.
+I am motivated to create safe decision-making technologies that "just work" in response to high-level commands.
+More specifically, I am keen on alleviating the tension between deep reinforcement learning and model predictive control.
+There are *structural*, *functional*, and *algorithmic* relationships I am digging into as a postdoc (and beyond).
+A more unified perspective of these two areas would make RL more appealing for real-world applications while also making MPC more flexible and scalable under general learning algorithms.
+
 
 My PhD is in {{ site.author.discipline }} from UBC where I worked with [{{ sup1.name}}]({{ sup1.url }}) and [{{ sup2.name }}]({{ sup2.url }}).
 Here you can find my thesis on [Deep reinforcement learning agents for industrial control system design](https://open.library.ubc.ca/collections/24/items/1.0430547).
