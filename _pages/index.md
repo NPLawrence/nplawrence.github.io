@@ -8,7 +8,7 @@ author_profile: true
 {% assign sup1 = site.author.supervisors[0] %}
 {% assign sup2 = site.author.supervisors[1] %}
 
-Upper bound tutorial: Cheat sheet [here](https://nplawrence.com/assets/misc/cheat_sheet.pdf)
+Upper bound tutorial: Slides and code [here](https://nplawrence.com/RL-MPC-tutorial/)
 
 
 I'm a postdoc at {{ site.author.employer_short }}.
