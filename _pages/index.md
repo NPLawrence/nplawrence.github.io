@@ -15,18 +15,16 @@ I'm a postdoc at {{ site.author.employer_short }}.
 
 
 The broad goal of my work is to unify machine learning and control theory.
-I am motivated to create safe decision-making technologies that "just work" in response to high-level commands.
 More specifically, I am keen on alleviating the tension between deep reinforcement learning and model predictive control.
-There are *structural*, *functional*, and *algorithmic* relationships I am digging into as a postdoc (and beyond).
 A more unified perspective of these two areas would make RL more appealing for real-world applications while also making MPC more flexible and scalable under general learning algorithms.
+Ultimately, I want to create safe decision-making technologies that "just work" in response to high-level commands.
 
 
 My PhD is in {{ site.author.discipline }} from UBC where I worked with [{{ sup1.name}}]({{ sup1.url }}) and [{{ sup2.name }}]({{ sup2.url }}).
 Here you can find my thesis on [Deep reinforcement learning agents for industrial control system design](https://open.library.ubc.ca/collections/24/items/1.0430547).
-The first part of my thesis focuses on the practical implementation of RL and meta-RL for PID tuning.
+The first part of my thesis focuses on the practical implementation of RL and meta-RL for PID tuning in the context of industrial process control.
 I later developed a general method for synthesizing stabilizing controllers with any RL algorithm using input-output data.
-The domain for this work is industrial process control.
-But RL is a very versatile framework and I am keen on branching into other applied domains as well, particularly with an environmental focus.
+
 
 {% comment %}
 News
