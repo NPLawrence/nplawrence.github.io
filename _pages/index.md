@@ -8,13 +8,11 @@ author_profile: true
 {% assign sup1 = site.author.supervisors[0] %}
 {% assign sup2 = site.author.supervisors[1] %}
 
-Upper bound tutorial: Slides and code [here](https://nplawrence.com/RL-MPC-tutorial/)
+Upper Bound 2024 MPC tutorial: Slides and code [here](https://nplawrence.com/RL-MPC-tutorial/)
 
+I'm a postdoc at {{ site.author.employer_short }}. I'll be joining [Mesbah Lab](https://www.mesbahlab.com) at UC Berkeley in August.
 
-I'm a postdoc at {{ site.author.employer_short }}.
-
-
-The broad goal of my work is to unify machine learning and control theory.
+The broad focus of my work is unifying machine learning and control theory.
 More specifically, I am keen on alleviating the tension between deep reinforcement learning and model predictive control.
 A more unified perspective of these two areas would make RL more appealing for real-world applications while also making MPC more flexible and scalable under general learning algorithms.
 Ultimately, I want to create safe decision-making technologies that "just work" in response to high-level commands.
