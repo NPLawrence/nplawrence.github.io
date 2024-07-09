@@ -368,8 +368,8 @@ references:
     Deep Hankel matrices with random elements
   title-short:
   type: paper-conference
-  URL: http://arxiv.org/abs/2404.15512
-  volume:
+  URL: https://proceedings.mlr.press/v242/lawrence24a.html
+  volume: 242
   note:
 
 - id: mcclement2021MetaReinforcementLearning
