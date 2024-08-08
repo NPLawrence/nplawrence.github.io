@@ -5,8 +5,6 @@ excerpt: "About me"
 author_profile: true
 
 ---
-{% assign sup1 = site.author.supervisors[0] %}
-{% assign sup2 = site.author.supervisors[1] %}
 
 I recently joined [Mesbah Lab](https://www.mesbahlab.com) at UC Berkeley as a postdoc! 
 
@@ -18,7 +16,7 @@ A more unified perspective of these two areas would make RL more appealing for r
 Ultimately, I want to create safe decision-making technologies that "just work" in response to high-level commands.
 
 
-My PhD is in {{ site.author.discipline }} from UBC where I worked with [{{ sup1.name}}]({{ sup1.url }}) and [{{ sup2.name }}]({{ sup2.url }}).
+My PhD is in Applied Mathematics from UBC where I worked with [Philip Loewen](https://personal.math.ubc.ca/~loew/) and [Bhushan Gopaluni](https://dais.chbe.ubc.ca).
 Here you can find my thesis on [Deep reinforcement learning agents for industrial control system design](https://open.library.ubc.ca/collections/24/items/1.0430547).
 The first part of my thesis focuses on the practical implementation of RL and meta-RL for PID tuning in the context of industrial process control.
 I later developed a general method for synthesizing stabilizing controllers with any RL algorithm using input-output data.
