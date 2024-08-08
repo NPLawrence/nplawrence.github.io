@@ -8,9 +8,9 @@ author_profile: true
 {% assign sup1 = site.author.supervisors[0] %}
 {% assign sup2 = site.author.supervisors[1] %}
 
-Upper Bound 2024 MPC tutorial: Slides and code [here](https://nplawrence.com/RL-MPC-tutorial/)
+I recently joined [Mesbah Lab](https://www.mesbahlab.com) at UC Berkeley as a postdoc! 
 
-I'm a postdoc at {{ site.author.employer_short }}. I'll be joining [Mesbah Lab](https://www.mesbahlab.com) at UC Berkeley in August.
+Upper Bound 2024 MPC tutorial: Slides and code [here](https://nplawrence.com/RL-MPC-tutorial/)
 
 The broad focus of my work is unifying machine learning and control theory.
 More specifically, I am keen on alleviating the tension between deep reinforcement learning and model predictive control.
