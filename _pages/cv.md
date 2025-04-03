@@ -19,6 +19,6 @@ updated: August 2021
 	src="https://nplawrence.com/assets/lawrence_cv.pdf"
 	type="application/pdf"
 	width="100%"
-	height="200"
+	height="100"
 	title="Nathan Lawrence's CV"
 />
