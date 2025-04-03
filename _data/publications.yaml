@@ -579,9 +579,9 @@ references:
       given: Ali
   citation-key: lawrence2025Viewlearning
   container-title: arXiv preprint
+  container-title-short: arXiv preprint
   DOI: 10.48550/arXiv.2502.06996
-  issued:
-    - year: 2025
+  year: 2025
   number: arXiv:2502.06996
   publisher: arXiv
   source: arXiv.org
@@ -607,9 +607,9 @@ references:
       given: Ali
   citation-key: banker2025LocalGlobalLearning
   container-title: American Control Conference
+  container-title-short: American Control Conference
   DOI: 10.48550/arXiv.2503.13289
-  issued:
-    - year: 2025
+  year: 2025
   number: arXiv:2503.13289
   publisher: arXiv
   source: arXiv.org
@@ -636,9 +636,9 @@ references:
       given: Ali
   citation-key: lawrence2025MPCriticplugandplay
   container-title: arXiv preprint
+  container-title-short: arXiv preprint
   DOI: 10.48550/arXiv.2504.01086
-  issued:
-    - year: 2025
+  year: 2025
   number: arXiv:2504.01086
   publisher: arXiv
   source: arXiv.org
