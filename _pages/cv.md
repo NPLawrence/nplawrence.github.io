@@ -15,5 +15,5 @@ updated: August 2021
 <br>
 </h6>
 # Nathan Lawrence's CV | "nplawrence *at* berkeley *dot* edu"
-<iframe src="https://nplawrence.com/assets/lawrence_cv.pdf" frameborder="0" height="100%"  width="100%"></iframe>
+<iframe src="https://nplawrence.com/assets/lawrence_cv.pdf" frameborder="0" scrolling="no style="overflow:hidden;height:100%;width:100%" height="100%"  width="100%"></iframe>
 
