@@ -16,7 +16,7 @@ updated: August 2021
 </h6>
 # Nathan Lawrence's CV | "nplawrence *at* berkeley *dot* edu"
 <embed
-	src="[document.pdf](https://nplawrence.com/assets/lawrence_cv.pdf)"
+	src="https://nplawrence.com/assets/lawrence_cv.pdf"
 	type="application/pdf"
 	width="100%"
 	height="1000"
