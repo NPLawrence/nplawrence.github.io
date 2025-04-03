@@ -8,10 +8,7 @@ author_profile: true
 
 I recently joined [Mesbah Lab](https://www.mesbahlab.com) at UC Berkeley as a postdoc! 
 
-Upper Bound 2024 MPC tutorial: Slides and code [here](https://nplawrence.com/RL-MPC-tutorial/)
-
-The broad focus of my work is unifying machine learning and control theory.
-More specifically, I am keen on alleviating the tension between deep reinforcement learning and model predictive control.
+My recent work develops a complementary framework inspired by deep reinforcement learning and model predictive control.
 A more unified perspective of these two areas would make RL more appealing for real-world applications while also making MPC more flexible and scalable under general learning algorithms.
 Ultimately, I want to create safe decision-making technologies that "just work" in response to high-level commands.
 
@@ -25,6 +22,8 @@ I later developed a general method for synthesizing stabilizing controllers with
 {% comment %}
 News
 ======
+
+Upper Bound 2024 MPC tutorial: Slides and code [here](https://nplawrence.com/RL-MPC-tutorial/)
 
 I recently completed my PhD!
 
