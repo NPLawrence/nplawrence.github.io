@@ -14,6 +14,6 @@ updated: August 2021
   <a href="https://nplawrence.com/assets/lawrence_cv.pdf", target="_blank">[PDF]</a>
 <br>
 </h6>
-# Nathan Lawrence's CV | "lawrence *at* math *dot* ubc *dot* ca"
+# Nathan Lawrence's CV | "nplawrence *at* berkeley *dot* edu"
 <iframe src="https://nplawrence.com/assets/lawrence_cv.pdf" frameborder="0"></iframe>
 
