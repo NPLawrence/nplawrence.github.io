@@ -526,5 +526,128 @@ references:
   title: Reinforcement learning with partial parametric model knowledge
   type: paper-conference
   URL: http://arxiv.org/abs/2304.13223
+
+- id: wang2024guiding
+  archive: arXiv:2410.16821
+  author:
+    - family: Wang
+      given: Shuyuan
+    - family: Duan
+      given: Jingliang
+    - family: Lawrence
+      given: Nathan P
+    - family: Loewen
+      given: Philip D
+    - family: Forbes
+      given: Michael G
+    - family: Gopaluni
+      given: R Bhushan
+    - family: Zhang
+      given: Lixian
+  citation-key: wang2024guiding
+  container-title: >-
+    2024 IEEE/RSJ international conference on intelligent robots and systems
+    (IROS)
+  container-title-short: 2024 IEEERSJ Int. Conf. Intell. Robots Syst. IROS
+  DOI: 10.1109/IROS58592.2024.10802721
+  event-place: Abu Dhabi, United Arab Emirates
+  event-title: IROS
+  issued:
+    - year: 2024
+  page: 11857–11863
+  publisher: IEEE
+  publisher-place: Abu Dhabi, United Arab Emirates
+  title: Guiding reinforcement learning with incomplete system dynamics
+  type: paper-conference
+  
+- id: lawrence2025Viewlearning
+  accessed:
+    - year: 2025
+      month: 3
+      day: 11
+  archive: 10.48550/arXiv.2502.06996
+  author:
+    - family: Lawrence
+      given: Nathan P.
+    - family: Loewen
+      given: Philip D.
+    - family: Forbes
+      given: Michael G.
+    - family: Gopaluni
+      given: R. Bhushan
+    - family: Mesbah
+      given: Ali
+  citation-key: lawrence2025Viewlearning
+  DOI: 10.48550/arXiv.2502.06996
+  issued:
+    - year: 2025
+      month: 2
+      day: 10
+  number: arXiv:2502.06996
+  publisher: arXiv
+  source: arXiv.org
+  title: >-
+    A view on learning robust goal-conditioned value functions: Interplay
+    between RL and MPC
+  title-short: A view on learning robust goal-conditioned value functions
+  type: article-journal
+  URL: http://arxiv.org/abs/2502.06996
+
+- id: banker2025LocalGlobalLearning
+  accessed:
+    - year: 2025
+      month: 3
+      day: 21
+  archive: 10.48550/arXiv.2503.13289
+  author:
+    - family: Banker
+      given: Thomas
+    - family: Lawrence
+      given: Nathan P.
+    - family: Mesbah
+      given: Ali
+  citation-key: banker2025LocalGlobalLearning
+  DOI: 10.48550/arXiv.2503.13289
+  issued:
+    - year: 2025
+      month: 3
+      day: 17
+  number: arXiv:2503.13289
+  publisher: arXiv
+  source: arXiv.org
+  title: >-
+    Local-Global Learning of Interpretable Control Policies: The Interface
+    between MPC and Reinforcement Learning
+  title-short: Local-Global Learning of Interpretable Control Policies
+  type: paper-conference
+  URL: http://arxiv.org/abs/2503.13289
+
+
+- id: lawrence2025MPCriticplugandplay
+  accessed:
+    - year: 2025
+      month: 4
+      day: 3
+  archive: 10.48550/arXiv.2504.01086
+  author:
+    - family: Lawrence
+      given: Nathan P.
+    - family: Banker
+      given: Thomas
+    - family: Mesbah
+      given: Ali
+  citation-key: lawrence2025MPCriticplugandplay
+  DOI: 10.48550/arXiv.2504.01086
+  issued:
+    - year: 2025
+      month: 4
+      day: 1
+  number: arXiv:2504.01086
+  publisher: arXiv
+  source: arXiv.org
+  title: 'MPCritic: A plug-and-play MPC architecture for reinforcement learning'
+  title-short: MPCritic
+  type: paper-conference
+  URL: http://arxiv.org/abs/2504.01086
 ...
 
