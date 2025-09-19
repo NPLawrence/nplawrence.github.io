@@ -6,17 +6,16 @@ author_profile: true
 
 ---
 
-I recently joined [Mesbah Lab](https://www.mesbahlab.com) at UC Berkeley as a postdoc! 
+I'm co-organizing an open invited track at the IFAC world congress 2026 on learning interpretable control policies. Find details and submission code [here](https://nplawrence.com/assets/misc/ifac2026_oit.pdf)!
 
+I'm a postdoc in the [Mesbah Lab](https://www.mesbahlab.com) at UC Berkeley.
+My work is driven by the need for safe algorithms and architectures for automatic decision-making. 
 My recent work develops a complementary framework inspired by deep reinforcement learning and model predictive control.
+These two areas are often viewed as opposites, but really they have a common core in dynamic programming and Markov decision processes.
+Essentially, RL represents one branch that solves decision-making tasks through trial and error and function approximators, while MPC is another branch that is based on dynamics, constraints, and optimization.
+RL has proved to be incredibly versatile but is not necessarily safe by-design; MPC puts safety and robustness at the forefront, but it can be difficult to design toward high performance.
 A more unified perspective of these two areas would make RL more appealing for real-world applications while also making MPC more flexible and scalable under general learning algorithms.
-Ultimately, I want to create safe decision-making technologies that "just work" in response to high-level commands.
-
-
-My PhD is in Applied Mathematics from UBC where I worked with [Philip Loewen](https://personal.math.ubc.ca/~loew/) and [Bhushan Gopaluni](https://dais.chbe.ubc.ca).
-Here you can find my thesis on [Deep reinforcement learning agents for industrial control system design](https://open.library.ubc.ca/collections/24/items/1.0430547).
-The first part of my thesis focuses on the practical implementation of RL and meta-RL for PID tuning in the context of industrial process control.
-I later developed a general method for synthesizing stabilizing controllers with any RL algorithm using input-output data.
+Please see my recent works on RL and MPC and don't hesitate to [get in touch](mailto:{{site.author.short_name}} <{{site.author.email}}>).
 
 
 {% comment %}
@@ -33,7 +32,7 @@ We are organizing a half-day workshop at AdCONIP 2022 on reinforcement learning 
 Publications
 ======
 
-Most of my papers are linked to arXiv or a DOI. If you can't find one, feel free to [get in touch](mailto:{{site.author.short_name}} <{{site.author.email}}>). {% if site.author.googlescholar %} You can also find my articles on my [Google Scholar profile]({{site.author.googlescholar}}).
+Most of my papers are linked to arXiv or a DOI. {% if site.author.googlescholar %} You can also find my articles on my [Google Scholar profile]({{site.author.googlescholar}}).
 {% endif %}
 
 {% include pub_list.html %}
