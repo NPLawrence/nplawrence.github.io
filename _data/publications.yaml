@@ -578,9 +578,9 @@ references:
     - family: Mesbah
       given: Ali
   citation-key: lawrence2025Viewlearning
-  container-title: arXiv preprint
-  container-title-short: arXiv preprint
-  DOI: 10.48550/arXiv.2502.06996
+  container-title: Annual Reviews in Control
+  container-title-short: Annual Reviews in Control
+  DOI: 10.1016/j.arcontrol.2025.101027
   year: 2025
   number: arXiv:2502.06996
   publisher: arXiv
@@ -590,7 +590,7 @@ references:
     between RL and MPC
   title-short: A view on learning robust goal-conditioned value functions
   type: article-journal
-  URL: http://arxiv.org/abs/2502.06996
+  URL: https://www.sciencedirect.com/science/article/pii/S1367578825000410
 
 - id: banker2025LocalGlobalLearning
   accessed:
