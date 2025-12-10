@@ -6,8 +6,6 @@ author_profile: true
 
 ---
 
-I'm co-organizing an open invited track at the IFAC world congress 2026 on learning interpretable control policies. Find details and submission code [here](https://nplawrence.com/assets/misc/ifac2026_oit.pdf)!
-
 I'm a postdoc in the [Mesbah Lab](https://www.mesbahlab.com) at UC Berkeley.
 My works is driven by the need for built-in safety of the architectures and algorithms governing decision-making agents.
 In that vein, my recent work develops a complementary framework inspired by deep reinforcement learning and model predictive control.
