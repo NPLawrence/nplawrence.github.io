@@ -646,5 +646,28 @@ references:
   title-short: MPCritic
   type: paper-conference
   URL: http://arxiv.org/abs/2504.01086
-...
 
+- id: lawrence2025goalconditioned
+  accessed:
+    - year: 2025
+      month: 12
+      day: 3
+  archive: https://arxiv.org/abs/2512.06471
+  author:
+    - family: Lawrence
+      given: Nathan P.
+    - family: Mesbah
+      given: Ali
+  citation-key: lawrence2025goalconditioned
+  container-title: arXiv preprint
+  container-title-short: arXiv preprint
+  DOI: 10.48550/arXiv.2512.06471
+  year: 2025
+  number: arXiv:2512.06471
+  publisher: arXiv
+  source: arXiv.org
+  title: 'Why Goal-Conditioned Reinforcement Learning Works: Relation to Dual Control'
+  title-short: MPCritic
+  type: manuscript
+  URL: https://arxiv.org/abs/2512.06471
+...
