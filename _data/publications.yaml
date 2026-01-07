@@ -667,7 +667,7 @@ references:
   publisher: arXiv
   source: arXiv.org
   title: 'Why Goal-Conditioned Reinforcement Learning Works: Relation to Dual Control'
-  title-short: MPCritic
+  title-short: Goal-Conditioned Reinforcement Learning
   type: manuscript
   URL: https://arxiv.org/abs/2512.06471
 ...
