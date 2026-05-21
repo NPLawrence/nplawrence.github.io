@@ -25,7 +25,7 @@ Then open http://127.0.0.1:4000. Jekyll will rebuild automatically when you edit
 - Edit site pages in `_pages/` and `_posts/`.
 - Edit navigation, author info, and shared site data in `_data/`.
 - Put downloadable files in `files/` and images in `images/` or `assets/images/`.
-- If you change publication metadata from BibTeX, regenerate the site data with `python scripts/bib2csl.py` from the repository root.
+- Publication data comes from the BibTeX files in `cv/publications/*.bib`; edit those files, then regenerate the site data with `python scripts/bib2csl.py` from the repository root.
 
 ## Edit The CV
 
