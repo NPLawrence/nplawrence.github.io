@@ -1,0 +1,19 @@
+~< extends "section.tex" >~
+
+~< block body >~
+    ~< for item in items >~
+	\subsection{<< item.type >>}
+	~< for d1 in item.details >~
+	~< if item.type == "Instructor of record" or item.type == "Mentor">~
+		\cvline{}{<< d1.institution >>:}
+	~< endif >~
+		~< for d2 in d1.details >~
+		~< if d2.name >~
+			\cvdoubleitem{}{<< d2.name >>}{<<d2.degree>>}{<< d2.semester >>}
+		~< else >~
+			\cventry{\normalfont << d2.semester >>}{\normalfont << d2.position >>}{\normalfont << d2.place >>, << d1.institution >>}{}{}{}
+		~< endif >~
+		~< endfor >~
+	~< endfor >~
+    ~< endfor >~
+~< endblock body >~

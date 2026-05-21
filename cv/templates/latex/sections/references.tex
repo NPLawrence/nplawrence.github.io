@@ -1,0 +1,9 @@
+~< extends "section.tex" >~
+
+~< block body >~
+  ~< for item in items >~
+	\cvdoubleitem{}{<< item.name >>}{}{{\small\faPhone}\vspace{1.5mm} << item.phone >>\\ {\small\faEnvelope[regular]}\vspace{1.5mm} {\ttfamily << item.email >>}}
+  ~< endfor >~
+~< endblock body >~
+
+

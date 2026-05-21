@@ -1,0 +1,18 @@
+~< extends "section.tex" >~
+
+~< block body >~
+  % \begin{itemize}
+    ~< for item in items >~
+      ~< if item.title >~
+      \cventry{<< item.dates >>}{<< item.title >>}{<< item.place  >>}{<< item.location >>}{}{}
+      ~< else >~
+      \cventry{<< item.dates >>}{<< item.place  >>}{}{<< item.location >>}{}{}
+      ~< endif >~
+        ~< if item.details >~
+        ~< for detail in item.details ->~
+            \cvline{}{<<detail>>}
+        ~<- endfor ->~
+        ~< endif >~
+    ~< endfor >~
+  % \end{itemize}
+~< endblock body >~

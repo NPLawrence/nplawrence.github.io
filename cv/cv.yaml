@@ -1,0 +1,482 @@
+name:
+  first: \huge Nathan
+  last: Lawrence
+phone: +1 778-512-3141
+email: input@nplawrence.com
+# email: nplawrence@berkeley.edu
+pdf: /data/cv.pdf
+src: https://github.com/NPLawrence/CV
+url: "https://nplawrence.com"
+url_text: "nplawrence.com"
+social:
+  github: NPLawrence
+  twitter:
+  linkedin:
+  google_scholar: Fe9p7QoAAAAJ
+
+# LaTeX formatting.
+style: classic # casual, classic, oldstyle, or banking
+color: black # blue, orange, green, red, purple, grey and black
+color2: '0.25,0.25,0.25' # Make the font under the name a darker grey.
+
+# (tag, section type, title)
+order:
+  - [about, About]
+  # - [news, News]
+  - [education, Education]
+  - [positions, Employment]
+  - [all_publications, Publications]
+  - [honors, Honors \& Awards]
+
+  # - [all_publications, Selected Publications]
+  # - [industry, Research Internships]
+  # - [selected_publications, Selected Publications]
+  # - [projects, Projects]
+  # - [coursework, Graduate Coursework (selected)]
+#  - [activities, Activities]
+  # - [repos, Repositories]
+  # - [NEWPAGE, NEWPAGE]
+  - [talks, Talks]
+  # - [advising, Interns and Students]
+  - [teaching, Teaching]
+
+  - [research, Research Experience]
+  - [service, Professional Activities]
+  - [skills, Skills]
+  - [references, References]
+
+
+  # - [coursework, Graduate Coursework (selected)]
+
+about: '
+  Deep reinforcement learning, industrial process control\\ Collaborative research and development project with Honeywell Process Solutions
+  <br><br>'
+
+service:
+  - title: Reviewing
+    details: Automatica, Computers \& Chemical Engineering, Scientific Reports, Control Engineering Practice, IEEE, IFAC
+  - title: Member
+    details: Society for Industrial and Applied Mathematics (SIAM)
+  - title: Organizer
+    details: "DAIS research lab"
+    sub_details: ""
+    year: 2020-2021
+    url: https://dais.chbe.ubc.ca
+  - title: Vice-president
+    details: "SIAM, PSU Chapter"
+    year: 2017-2018
+  # - details: "Pi Mu Epsilon, Oregon Gamma Chapter"
+  #   sub_details: "President"
+  #   year: 2015-2016
+  # - details: "PSU Chess Club"
+  #   sub_details: "Vice-president"
+  #   year: 2015-2017
+
+repos:
+
+
+education:
+  - school: The University of British Columbia
+    location: Vancouver, BC, Canada
+    degree: Ph.D. in Mathematics
+    dates: 2023
+    # dates: May 2019
+    overallGPA:
+    details:
+      - "Thesis: \\textit{\\href{https://dx.doi.org/10.14288/1.0430547}{Deep reinforcement learning agents for industrial control system design}}"
+      - "Advisors: \\href{https://personal.math.ubc.ca/~loew/}{Philip Loewen}, \\href{https://dais.chbe.ubc.ca}{Bhushan Gopaluni}"
+
+  - school: Portland State University
+    location: Portland, OR, USA
+    degree: M.S. in Mathematics
+    dates: 2018
+    # dates: May 2014
+    overallGPA:
+    majorGPA:
+    # details:
+    #   - "Thesis: \\textit{Low-Dimensional Characterization of Human Faces from Gappy Data}"
+    #   - "Advisor: \\href{https://web.pdx.edu/~daescu/}{Dacian Daescu}"
+
+  - school: Portland State University Honors College
+    location: Portland, OR, USA
+    degree: B.A. in Mathematics
+    dates: 2016
+    # dates: May 2014
+    overallGPA:
+    majorGPA:
+    details:
+      - "\\textit{summa cum laude}"
+      # - "Thesis: \\textit{\\href{https://pdxscholar.library.pdx.edu/honorstheses/317/}{Convex and Nonconvex Optimization Techniques for the Constrained Fermat-Torricelli Problem}}"
+      # - "Advisor: \\href{https://web.pdx.edu/~mnn3/}{Mau Nam Nguyen}"
+
+
+research:
+  - place: UBC
+    location: Vancouver, BC
+    title: Graduate Research Assistant
+    advisor: "\\href{https://personal.math.ubc.ca/~loew/}{Philip Loewen}, \\href{https://dais.chbe.ubc.ca}{Bhushan Gopaluni}"
+    dates: 2018-2023
+    area: Deep reinforcement learning, industrial process control\\ R\&D with Honeywell Process Solutions
+  - place: PSU
+    location: Portland, OR
+    title: Research Assistant
+    dates: 2018
+    advisor: "\\href{https://web.pdx.edu/~gerardol/}{Gerardo Lafferriere}"
+    area: Urban traffic simulation, networked control systems
+  - place: PSU
+    location: Portland, OR
+    title: Research Assistant
+    dates: 2017-2018
+    advisor: "\\href{https://web.pdx.edu/~daescu/}{Dacian Daescu}"
+    area: Low-dimensional characterization of human faces from gappy data
+  - place: PSU
+    location: Portland, OR
+    title: Research Assistant
+    dates: 2015-2016
+    advisor: "\\href{https://sites.google.com/pdx.edu/dr-mau-nam-nguyen/home/}{Mau Nam Nguyen}"
+    area: Convex analysis and optimization
+
+
+positions:
+  - place: Hammerhead AI
+    location: Redwood City, CA
+    title: Reinforcement Learning Engineer (consulting)
+    dates: 2025-present
+    # details: "Consultant"
+  - place: Chemical \& Biomolecular Engineering
+    location: UC Berkeley
+    title: Postdoctoral Scholar
+    dates: 2024-present
+  - place: Mathematics
+    location: UBC
+    title: Postdoctoral Research Fellow
+    dates: 2023-2024
+  # details: "Mathematics department"
+
+
+# industry:
+
+
+teaching:
+  - type: "Instructor of Record"
+    details:
+      - institution: "PSU"
+        details:
+          - semester: "Winter 2018"
+            name: "Intermediate algebra"
+            short: "MTH 095"
+          - semester: "Fall 2016, Winter 2017"
+            name: "Introductory College Mathematics II"
+            short: "MTH 112"
+          - semester: "Summer 2017, Spring 2018"
+            name: "Calculus II"
+            short: "MTH 252"
+          - semester: "Spring 2017, Fall 2017"
+            name: "Calculus III"
+            short: "MTH 253"
+  - type: "Mentor"
+    details:
+      - institution: "UBC"
+        details:
+          - semester: 2020-2022
+            name: Daniel McClement
+            project: Meta-Reinforcement Learning Approaches to Process Control
+            degree: M.Sc.
+          - semester: 2022
+            name: Kenechukwu Ene
+            project: Reinforcement Learning for Multi-Loop PID Control
+            degree: B.Sc.
+          - semester: 2020
+            name: Leo Wei, James Penfold, Aniket Chakraborty, Farbod Chamanian
+            project: Deep Reinforcement Learning for PID Control
+            degree: B.Sc.
+  - type: "Related Experience"
+    details:
+      - institution: "UBC"
+        details:
+          - semester: 2018-2019
+            place: "Department of Mathematics"
+            position: "Teaching Assistant"
+          - semester: 2018-2019
+            place: "The Math Learning Centre"
+            position: "Mathematics tutor"    
+      - institution: "PSU"
+        details:
+          - semester: 2014-2016
+            place: "The Learning Center"
+            position: "Mathematics tutor"
+
+
+  # - semester: "Winter 2018"
+  #   name: "Intermediate algebra"
+  #   short: "MTH 095"
+  #   institution: "PSU"
+  #   position: "Instructor of record"
+  # - semester: "Fall 2016, Winter 2017"
+  #   name: "Introductory College Mathematics II"
+  #   short: "MTH 112"
+  #   institution: "PSU"
+  #   position: "Instructor of record"
+  # - semester: "Summer 2017, Spring 2018"
+  #   name: "Calculus II"
+  #   short: "MTH 252"
+  #   institution: "PSU"
+  #   position: "Instructor of record"
+  # - semester: "Spring 2017, Fall 2017"
+  #   name: "Calculus III"
+  #   short: "MTH 253"
+  #   institution: "PSU"
+  #   position: "Instructor of record"
+  # - semester: 2014-2016
+  #   name:
+  #   short:
+  #   institution: "The Learning Center, PSU"
+  #   position: "Mathematics tutor"
+  # - semester: 2018-2019
+  #   name:
+  #   short:
+  #   institution: "The Math Learning Centre, UBC"
+  #   position: "Mathematics tutor"
+
+all_publications:
+  name: "Lawrence"
+  file: all.bib
+  sort_bib: True
+  include_image: False
+  group_by_year: True
+  categories:
+    - heading: Preprints
+      prefix: R
+      file: in_progress.bib
+    - heading: Peer Reviewed Journal Articles
+      prefix: J
+      file: journal.bib
+    - heading: Peer Reviewed Conference Proceedings
+      prefix: C
+      file: conference.bib
+    - heading: Patents
+      prefix: P
+      file: patent.bib
+    - heading: Theses
+      prefix: T
+      file: thesis.bib
+
+# selected_publications:
+#   name: "Lawrence"
+#   file: all.bib
+#   sort_bib: True
+#   include_image: False
+#   group_by_year: True
+#   categories:
+#     - heading: Under Review or In-Progress
+#       prefix: R
+#       file: in_progress.bib
+#     - heading: Selected Publications
+#       prefix: J
+#       file: selected.bib
+#     - heading: Patents
+#       prefix: P
+#       file: patent.bib
+#     - heading: Theses
+#       prefix: T
+#       file: thesis.bib
+
+    # - heading: Workshop, Symposium, and Short Papers
+    #   prefix: W
+    #   file: short.bib
+
+
+
+  author_urls:
+    'Aditya Tulsyan': 'https://scholar.google.com/citations?user=w6mq7zMAAAAJ'
+    'Benoit Chachuat': 'https://scholar.google.com/citations?user=VXbA-dAAAAAJ'
+    'Bhushan Gopaluni': 'https://dais.chbe.ubc.ca'
+    'Biao Huang': 'https://sites.ualberta.ca/~bhuang/'
+    'Daniel McClement': 'https://scholar.google.com/citations?user=iDBdDMkAAAAJ'
+    'Faraz Amjad': 'https://www.researchgate.net/profile/Faraz-Amjad-2'
+    'Gregory Stewart': 'https://scholar.google.com/citations?user=qk2jRDUAAAAJ'
+    'Jingliang Duan': 'https://scholar.google.com/citations?user=jaofXZIAAAAJ'
+    'Johan Backstr{\"o}m': 'https://www.researchgate.net/profile/Johan-Backstrom'
+    'Jong Min Lee': 'https://scholar.google.co.kr/citations?user=WG-zsisAAAAJn'
+    'Jong Woo Kim': 'https://scholar.google.co.kr/citations?user=z_s3tAYAAAAJ'
+    'Kai Wang': 'https://scholar.google.com/citations?user=Utem_qkAAAAJ'
+    'Lin Lu': 'https://scholar.google.com/citations?user=_sMx2vwAAAAJ'
+    'Lixian Zhang': 'https://scholar.google.com/citations?user=GOzNSbEAAAAJ'
+    'Michael Forbes': 'https://www.researchgate.net/profile/Michael-Forbes-10'
+    'Philip Loewen': 'https://personal.math.ubc.ca/~loew/'
+    'Seshu Kumar Damarla': 'https://scholar.google.com/citations?user=NlUsvm0AAAAJ'
+    'Shuyuan Wang': 'https://josef-w.github.io'
+    'Steven Spielberg': 'https://www.stevenspielberg.me'
+    'Tobi Michael Alabi': 'https://www.researchgate.net/profile/Alabi_Michael4'
+    'Zaiyue Yang': 'https://scholar.google.com/citations?user=u0HM84UAAAAJ'
+
+
+
+# talks:
+#
+#
+#
+# advising:
+
+
+
+coursework:
+  - semester: Winter I 2019
+    name: Machine Learning and Data Mining (CPSC 532M)
+    Instructor of record: M. Schmidt
+  - semester: Winter I-II 2018
+    name: Probability I-II (MATH 544-545)
+    Instructor of record: E. Perkins, M. Murugan
+  - semester: Winter II 2018
+    name: Foundations in Control Engineering (MECH 522, audit)
+    Instructor of record: R. Nagamune
+  - semester: Fall, Winter, Spring 2017-2018
+    name: Modern Analysis I-III (MTH 614-616)
+    Instructor of record: M.N. Nguyen
+  - semester: Fall, Winter, Spring 2016-2017
+    name: Numerical Optimization I-II (MTH 510)
+    Instructor of record: D. Daescu
+  - semester: Winter, Spring 2017
+    name: Networked Control Systems I-II (MTH 510)
+    Instructor of record: G. Lafferriere
+
+skills:
+  - title: Programming
+    details: Python, Julia
+  - title: Frameworks
+    details: PyTorch, TensorFlow, Stable-Baselines3, Spinning Up, Pandas, SciPy, Flux.jl, ReinforcementLearning.jl
+  - title: Tools
+    details: Matlab, git, LaTex
+
+honors:
+  - title: Graduate Research Award -- Applied mathematics
+    year: 2022
+    descr: Doctoral; UBC mathematics departmental award
+    url: https://www.math.ubc.ca/graduate/current-students/graduate-research-awards
+  - title: FIPSE Graduate Student Participation Award
+    year: 2022
+    descr: 1 of 5 graduate students invited to attend Future Innovations in Process Systems Engineering in Crete, Greece
+    url: https://www.fi-in-pse.org/scientific-program-2022/
+  - title: Alexander Graham Bell Canada Graduate Scholarship
+    year: 2020--2023
+    descr: Doctoral; National scholarship awarded by NSERC; Ranked {\color{violet}5th of 107} in Mathematical Sciences \hfill \href{https://www.grad.ubc.ca/campus-community/meet-our-students/lawrence-nathan}{{\small [Interview]}}
+    url: https://www.grad.ubc.ca/awards/canada-graduate-scholarships-doctoral-cgs-d-program
+  - title: Four Year Doctoral Fellowship
+    year: 2020--2023
+    descr: Doctoral; UBC scholarship
+    url: https://www.grad.ubc.ca/awards/four-year-doctoral-fellowship-4yf
+  # - title: Eugene Enneking Doctoral Fellowship
+  #   year: 2018
+  #   descr: Declined; PSU
+  #   url: https://www.pdx.edu/math/graduate-scholarships
+  # - title: Oregon Sports Lottery Graduate Scholarship
+  #   year: 2018
+  #   descr: Declined; PSU
+  - title: F.S. Cater Prize
+    year: 2017
+    descr: Master's; Departmental scholarship at PSU
+    url: https://www.pdx.edu/math/past-winners-fs-cater-prize
+  # - title: Dean's Award for Academic Achievement
+  #   year: 2016
+  #   descr: Bachelor's; PSU
+  # - title: President's List
+  #   year: 2013-2016
+  #   descr: Bachelor's; PSU
+  # - title: Barbara McDougall Scholarship
+  #   year: 2015
+  #   descr: Bachelor's; Departmental award at PSU
+  # - title: Honors Laurels Merit Award
+  #   year: 2014-2015
+  #   descr: Bachelor's; Honor's college award at PSU
+  # - title: The Honor Society of Phi Kappa Phi
+  #   year: 2013-2015
+  #   descr: Member; Bachelor's; National honor society
+
+talks:
+  - type: "Invited"
+    details:
+    - title: "A reinforcement learning perspective on industrial model predictive control"
+      url:
+      location: Upper Bound, Edmonton
+      year: 2024
+    - title: "Deep reinforcement learning agents for industrial control"
+      url:
+      location: Math department colloquium, UBC
+      year: 2023
+    - title: "How to make a professional website"
+      url: https://github.com/NPLawrence/website_workshop
+      location: Workshop fascilitator, Institute of Applied Mathematics, UBC
+      year: 2021
+  - type: "Organizer"
+    details:
+    - title: "Learning Interpretable Control Policies: Unifying Reinforcement Learning, Differentiable Programming and Bayesian Optimization"
+      location: "Tutorial session, ACC, Denver, CO"
+      year: 2025
+    - title: "Making reinforcement learning a practical technology for industrial control"
+      url: https://github.com/daisubc/adconip2022
+      location: Workshop organizer, AdCONIP, Vancouver, BC
+      year: 2022
+  - type: "Conference"
+    details:
+    - title: "Local-global interface of reinforcement learning and model predictive control"
+      url: https://sites.google.com/ucdavis.edu/7th-norcal-control-workshop
+      location: "NorCal Control Workshop, UC Davis"
+      year: 2025
+    - title: "Stability-by-design for industrial reinforcement learning"
+      url: https://trustml.ubc.ca/events/trustml-workshop-ubc-february-2024
+      location: "TrustML Workshop, UBC"
+      year: 2024
+    - title: "A modular framework for stabilizing deep reinforcement learning control"
+      url:
+      location: SIAM PNW biennial meeting, Western Washington University, Bellingham, WA
+      year: 2023
+    - title: "A modular framework for stabilizing deep reinforcement learning control"
+      url:
+      location: IFAC World Congress, Yokohama, Japan
+      year: 2023
+    - title: "Reinforcement learning for maintenance-free control"
+      url:
+      location: Canadian Society for Chemical Engineering annual event, Vancouver, BC
+      year: 2022
+    - title: "Deep reinforcement learning for real-world control"
+      url:
+      location: Institute of Applied Mathematics retreat, UBC
+      year: 2022
+    - title: "Reinforcement learning for maintenance-free control"
+      url:
+      location: Systems and Control Webinar (remote)
+      year: 2022
+    - title: "Almost surely stable deep dynamics"
+      url:
+      location: NeurIPS Spotlight, Vancouver, BC (remote)
+      year: 2020
+    - title: "Reinforcement learning based PID tuning"
+      url:
+      location: BC Universities Systems and Control Meeting, University of Victoria (remote)
+      year: 2020
+    - title: "Reinforcement learning based design of linear fixed-structure controllers"
+      url:
+      location: IFAC World Congress, Berlin, Germany (remote)
+      year: 2020
+    - title: "Optimal PID and antiwindup control design as a reinforcement learning problem"
+      url:
+      location: IFAC World Congress, Berlin, Germany (remote)
+      year: 2020
+
+references:
+  - name: Ali Mesbah
+    phone: ---
+    email: mesbah@berkeley.edu
+    address: Associate Professor, UC Berkeley
+  - name: Philip Loewen
+    phone: ---
+    email: loew@math.ubc.ca
+    address: Professor, UBC
+  - name: Bhushan Gopaluni
+    phone: ---
+    email: bhushan.gopaluni@ubc.ca
+    address: Professor, UBC
+  - name: Michael Forbes
+    phone: ---
+    email: Michael.Forbes@Honeywell.com
+    address: Engineering Fellow, Honeywell Process Solutions  

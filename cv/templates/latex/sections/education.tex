@@ -1,0 +1,16 @@
+~< extends "section.tex" >~
+~< block body >~
+% \vspace{-2mm}
+% \begin{itemize}
+~< for school in items >~
+	~< if school.details >~
+		\cventry{<< school.dates >>}{<< school.degree >>}{<< school.school  >>}{}{}{}
+   		 ~< for detail in school.details ->~
+			\cvline{}{{<<detail>>}}
+    		~< endfor >~
+	~< else >~
+		\cventry{<< school.dates >>}{<< school.degree >>}{<< school.school  >>}{}{}{}
+	~< endif >~
+~< endfor >~
+% \end{itemize}
+~< endblock body >~

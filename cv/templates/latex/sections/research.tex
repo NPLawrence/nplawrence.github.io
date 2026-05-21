@@ -1,0 +1,7 @@
+~< extends "section.tex" >~
+
+~< block body >~
+    ~< for item in items >~
+	\cventry{<< item.dates >>}{<< item.title >>}{\normalfont << item.place >>, with << item.advisor >>}{}{}{<< item.area >>}
+    ~< endfor >~
+~< endblock body >~

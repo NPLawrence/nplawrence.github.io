@@ -1,673 +1,487 @@
----
+# Auto-generated from cv/publications/*.bib — edit the .bib files, not this file
 references:
-
-- id: alabi2023AutomatedDeep
-  archive: https://arxiv.org/abs/2301.07768
-  author:
-    - family: Alabi
-      given: Tobi Michael
-    - family: Lawrence
-      given: Nathan P.
-    - family: Lu
-      given: Lin
-    - family: Yang
-      given: Zaiyue
-    - family: Bhushan Gopaluni
-      given: R.
-  citation-key: alabi2023AutomatedDeep
-  container-title: Applied Energy
-  container-title-short: Applied Energy
-  DOI: 10.1016/j.apenergy.2022.120633
-  ISSN: 0306-2619
-  year: 2023
-  page: '120633'
-  title: >-
-    Automated deep reinforcement learning for real-time scheduling strategy of
-    multi-energy system integrated with post-carbon and direct-air carbon
-    captured system
-  type: article-journal
-  URL: https://www.sciencedirect.com/science/article/pii/S0306261922018906
-  volume: '333'
-
-- id: gopaluni2020ModernMachine
-  archive: https://arxiv.org/abs/2209.11123
-  author:
-    - family: Gopaluni
-      given: R. Bhushan
-    - family: Tulsyan
-      given: Aditya
-    - family: Chachuat
-      given: Benoit
-    - family: Huang
-      given: Biao
-    - family: Lee
-      given: Jong Min
-    - family: Amjad
-      given: Faraz
-    - family: Damarla
-      given: Seshu Kumar
-    - family: Kim
-      given: Jong Woo
-    - family: Lawrence
-      given: Nathan P.
-  citation-key: gopaluni2020ModernMachine
-  container-title: IFAC-PapersOnLine
-  container-title-short: IFAC-Pap.
-  DOI: https://doi.org/10.1016/j.ifacol.2020.12.126
-  event-title: IFAC World Congress
-  year: 2020
-  page: 218–229
-  title: >-
-    Modern machine learning tools for monitoring and control of industrial
-    processes: A survey
-  type: paper-conference
-  URL: https://www.sciencedirect.com/science/article/pii/S2405896320303827
-  volume: '53'
-
-- id: lawrence2016ConvexNonconvex
-  accessed:
-    - year: 2020
-      month: 12
-      day: 30
-  author:
-    - family: Lawrence
-      given: Nathan
-  citation-key: lawrence2016ConvexNonconvex
-  DOI: 10.15760/honors.319
-  year: 2016
-  license: All rights reserved
-  publisher: Portland State University
-  source: DOI.org (Crossref)
-  title: >-
-    Convex and nonconvex optimization techniques for the constrained
-    Fermat-Torricelli problem
-  type: thesis
-  URL: http://archives.pdx.edu/ds/psu/17431
-
-- id: lawrence2018LowDimensionalCharacterization
-  author:
-    - family: Lawrence
-      given: Nathan
-  citation-key: lawrence2018LowDimensionalCharacterization
-  year: 2018
-  license: All rights reserved
-  publisher: Portland State University
-  source: Zotero
-  title: Low-dimensional characterization of human faces from gappy data
-  type: report
-
-- id: lawrence2020AlmostSurely
-  accessed:
-    - year: 2020
-      month: 12
-      day: 22
-  archive: https://arxiv.org/abs/2103.14722
-  author:
-    - family: Lawrence
-      given: Nathan P.
-    - family: Loewen
-      given: Philip D.
-    - family: Forbes
-      given: Michael G.
-    - family: Backström
-      given: Johan U.
-    - family: Gopaluni
-      given: R. Bhushan
-  citation-key: lawrence2020AlmostSurely
-  container-title: Advances in Neural Information Processing Systems
-  container-title-short: Adv. Neural Inf. Process. Syst.
-  event-title: NeurIPS
-  year: 2020
-  license: All rights reserved
-  note: NeurIPS Spotlight
-  source: papers.nips.cc
-  title: Almost Surely Stable Deep Dynamics
-  type: paper-conference
-  URL: >-
-    https://papers.nips.cc/paper/2020/hash/daecf755df5b1d637033bb29b319c39a-Abstract.html
-  volume: '33'
-
-- id: lawrence2020OptimalPID
-  archive: https://arxiv.org/abs/2005.04539
-  author:
-    - family: Lawrence
-      given: Nathan P.
-    - family: Stewart
-      given: Gregory E.
-    - family: Loewen
-      given: Philip D.
-    - family: Forbes
-      given: Michael G.
-    - family: Backström
-      given: Johan U.
-    - family: Gopaluni
-      given: R. Bhushan
-  citation-key: lawrence2020OptimalPID
-  container-title: IFAC-PapersOnLine
-  container-title-short: IFAC-Pap.
-  DOI: https://doi.org/10.1016/j.ifacol.2020.12.129
-  event-title: IFAC World Congress
-  year: 2020
-  page: 236–241
-  title: >-
-    Optimal PID and antiwindup control design as a reinforcement learning
-    problem
-  type: paper-conference
-  URL: https://www.sciencedirect.com/science/article/pii/S2405896320303852
-  volume: '53'
-
-- id: lawrence2020ReinforcementLearning
-  accessed:
-    - year: 2021
-      month: 4
-      day: 28
-  archive: https://arxiv.org/abs/2005.04537
-  author:
-    - family: Lawrence
-      given: Nathan P.
-    - family: Stewart
-      given: Gregory E.
-    - family: Loewen
-      given: Philip D.
-    - family: Forbes
-      given: Michael G.
-    - family: Backstrom
-      given: Johan U.
-    - family: Gopaluni
-      given: R. Bhushan
-  citation-key: lawrence2020ReinforcementLearning
-  container-title: IFAC-PapersOnLine
-  container-title-short: IFAC-Pap.
-  DOI: 10.1016/j.ifacol.2020.12.127
-  event-title: IFAC World Congress
-  year: 2020
-  license: All rights reserved
-  page: 230-235
-  source: DOI.org (Crossref)
-  title: Reinforcement learning based design of linear fixed structure controllers
-  type: paper-conference
-  URL: https://linkinghub.elsevier.com/retrieve/pii/S2405896320303839
-  volume: '53'
-
-- id: lawrence2022DeepReinforcement
-  accessed:
-    - year: 2022
-      month: 3
-      day: 1
-  archive: https://arxiv.org/abs/2111.07171
-  author:
-    - family: Lawrence
-      given: Nathan P.
-    - family: Forbes
-      given: Michael G.
-    - family: Loewen
-      given: Philip D.
-    - family: McClement
-      given: Daniel G.
-    - family: Backström
-      given: Johan U.
-    - family: Gopaluni
-      given: R. Bhushan
-  citation-key: lawrence2022DeepReinforcement
-  container-title: Control Engineering Practice
-  container-title-short: Control Engineering Practice
-  DOI: 10.1016/j.conengprac.2021.105046
-  ISSN: '09670661'
-  year: 2022
-  page: '105046'
-  source: DOI.org (Crossref)
-  title: >-
-    Deep reinforcement learning with shallow controllers: An experimental
-    application to PID tuning
-  title-short: Deep reinforcement learning with shallow controllers
-  type: article-journal
-  URL: https://linkinghub.elsevier.com/retrieve/pii/S0967066121002963
-  volume: '121'
-
-- id: lawrence2023DeepReinforcement
-  author:
-    - family: Lawrence
-      given: Nathan P.
-  citation-key: lawrence2023DeepReinforcement
-  genre: Text
-  year: 2023
-  publisher: The University of British Columbia
-  title: Deep reinforcement learning agents for industrial control system design
-  type: thesis
-  URL: https://open.library.ubc.ca/collections/24/items/1.0430547
-  
-- id: lawrence2023ModularFramework
-  accessed:
-    - year: 2023
-      month: 4
-      day: 11
-  archive: http://arxiv.org/abs/2304.03422
-  author:
-    - family: Lawrence
-      given: Nathan P.
-    - family: Loewen
-      given: Philip D.
-    - family: Wang
-      given: Shuyuan
-    - family: Forbes
-      given: Michael G.
-    - family: Gopaluni
-      given: R. Bhushan
-  citation-key: lawrence2023ModularFramework
-  DOI: 10.48550/arXiv.2304.03422
-  event-title: IFAC World Congress
-  year: 2023
-  source: arXiv.org
-  title: A modular framework for stabilizing deep reinforcement learning control
-  type: paper-conference
-  URL: http://arxiv.org/abs/2304.03422
-
-- id: lawrence2024MachineLearning
-  accessed:
-    - year: 2024
-      month: 1
-      day: 1
-  archive: https://arxiv.org/abs/2401.13836
-  author:
-    - family: Lawrence
-      given: Nathan P.
-    - family: Damarla
-      given: Seshu Kumar
-    - family: Kim
-      given: Jong Woo
-    - family: Tulsyan
-      given: Aditya
-    - family: Amjad
-      given: Faraz
-    - family: Wang
-      given: Kai
-    - family: Chachuat
-      given: Benoit
-    - family: Lee
-      given: Jong Min
-    - family: Huang
-      given: Biao
-    - family: Gopaluni
-      given: R. Bhushan
-  citation-key: lawrence2024MachineLearning
-  container-title: Control Engineering Practice
-  container-title-short: Control Engineering Practice
-  DOI:
-  ISSN:
-  year: 2024
-  page:
-  source:
-  title: >-
-    Machine learning for industrial sensing and control: A survey and practical perspective
-  title-short:
-  type: article-journal
-  URL: https://doi.org/10.1016/j.conengprac.2024.105841
-  volume:
-  note:
-
-- id: lawrence2024Stabilizing
-  accessed:
-    - year: 2024
-      month: 1
-      day: 1
-  archive: https://arxiv.org/abs/2310.14098
-  author:
-    - family: Lawrence
-      given: Nathan P.
-    - family: Loewen
-      given: Philip D.
-    - family: Wang
-      given: Shuyuan
-    - family: Forbes
-      given: Michael G.
-    - family: Gopaluni
-      given: R. Bhushan
-  citation-key: lawrence2024Stabilizing
-  container-title: Automatica
-  container-title-short: Automatica
-  DOI:
-  ISSN:
-  year: 2024
-  page:
-  source: DOI.org (Crossref)
-  title: >-
-    Stabilizing reinforcement learning control: A modular framework for optimizing over all stable behavior
-  title-short:
-  type: article-journal
-  URL: https://doi.org/10.1016/j.automatica.2024.111642
-  volume:
-  note:
-
-
-- id: lawrence2024DeepHankel
-  accessed:
-    - year: 2024
-      month: 1
-      day: 1
-  archive: http://arxiv.org/abs/2404.15512
-  author:
-    - family: Lawrence
-      given: Nathan P.
-    - family: Loewen
-      given: Philip D.
-    - family: Wang
-      given: Shuyuan
-    - family: Forbes
-      given: Michael G.
-    - family: Gopaluni
-      given: R. Bhushan
-  citation-key: lawrence2024DeepHankel
-  container-title: Learning for Dynamics & Control Conference
-  container-title-short: L4DC
-  DOI:
-  ISSN:
-  year: 2024
-  page:
-  source: DOI.org (Crossref)
-  title: >-
-    Deep Hankel matrices with random elements
-  title-short:
-  type: paper-conference
-  URL: https://proceedings.mlr.press/v242/lawrence24a.html
-  volume: 242
-  note:
-
-- id: mcclement2021MetaReinforcementLearning
-  accessed:
-    - year: 2021
-      month: 9
-      day: 13
-  archive: https://arxiv.org/abs/2103.14060
-  author:
-    - family: McClement
-      given: Daniel G.
-    - family: Lawrence
-      given: Nathan P.
-    - family: Loewen
-      given: Philip D.
-    - family: Forbes
-      given: Michael G.
-    - family: Backström
-      given: Johan U.
-    - family: Gopaluni
-      given: R. Bhushan
-  citation-key: mcclement2021MetaReinforcementLearning
-  container-title: IFAC-PapersOnLine
-  container-title-short: IFAC-Pap.
-  DOI: 10.1016/j.ifacol.2021.08.321
-  event-title: AdCHEM
-  year: 2021
-  note: Keynote Paper
-  page: 685-692
-  source: DOI.org (Crossref)
-  title: A meta-reinforcement learning approach to process control
-  type: paper-conference
-  URL: https://linkinghub.elsevier.com/retrieve/pii/S2405896321010958
-  volume: '54'
-
-- id: mcclement2022MetareinforcementLearning
-  accessed:
-    - year: 2022
-      month: 9
-      day: 19
-  archive: https://arxiv.org/abs/2203.09661
-  author:
-    - family: McClement
-      given: Daniel G.
-    - family: Lawrence
-      given: Nathan P.
-    - family: Backström
-      given: Johan U.
-    - family: Loewen
-      given: Philip D.
-    - family: Forbes
-      given: Michael G.
-    - family: Gopaluni
-      given: R. Bhushan
-  citation-key: mcclement2022MetareinforcementLearning
-  container-title: Journal of Process Control
-  container-title-short: J. Process Control
-  DOI: 10.1016/j.jprocont.2022.08.002
-  year: 2022
-  page: 139-152
-  source: DOI.org (Crossref)
-  title: >-
-    Meta-reinforcement learning for the tuning of PI controllers: An offline
-    approach
-  title-short: Meta-reinforcement learning for the tuning of PI controllers
-  type: article-journal
-  URL: https://linkinghub.elsevier.com/retrieve/pii/S0959152422001445
-  volume: '118'
-
-- id: mcclement2022MetaReinforcementLearning
-  accessed:
-    - year: 2022
-      month: 9
-      day: 22
-  archive: https://arxiv.org/abs/2209.09301
-  author:
-    - family: McClement
-      given: Daniel G.
-    - family: Lawrence
-      given: Nathan P.
-    - family: Forbes
-      given: Michael G.
-    - family: Loewen
-      given: Philip D.
-    - family: Backström
-      given: Johan U.
-    - family: Gopaluni
-      given: R. Bhushan
-  citation-key: mcclement2022MetaReinforcementLearning
-  container-title: AdCONIP
-  event-title: AdCONIP
-  DOI: 10.1109/AdCONIP55568.2022.9894150
-  year: 2022
-  publisher: arXiv
-  source: arXiv.org
-  title: Meta-reinforcement learning for adaptive control of second order systems
-  type: paper-conference
-  URL: https://ieeexplore.ieee.org/document/9894150
-
-- id: spielberg2019SelfDriving
-  accessed:
-    - year: 2020
-      month: 12
-      day: 22
-  archive: https://arxiv.org/abs/2004.05490
-  author:
-    - family: Spielberg
-      given: Steven
-    - family: Tulsyan
-      given: Aditya
-    - family: Lawrence
-      given: Nathan P.
-    - family: Loewen
-      given: Philip D.
-    - family: Gopaluni
-      given: R. Bhushan
-  citation-key: spielberg2019SelfDriving
-  container-title: AIChE Journal
-  container-title-short: AIChE J.
-  DOI: 10.1002/aic.16689
-  year: 2019
-  license: All rights reserved
-  source: DOI.org (Crossref)
-  title: >-
-    Toward self‐driving processes: A deep reinforcement learning approach to
-    control
-  title-short: Toward self‐driving processes
-  type: article-journal
-  URL: https://onlinelibrary.wiley.com/doi/abs/10.1002/aic.16689
-  volume: '65'
-  
-- id: wang2023ReinforcementLearning
-  accessed:
-    - year: 2023
-      month: 5
-      day: 7
-  archive: http://arxiv.org/abs/2304.13223
-  author:
-    - family: Wang
-      given: Shuyuan
-    - family: Loewen
-      given: Philip D.
-    - family: Lawrence
-      given: Nathan P.
-    - family: Forbes
-      given: Michael G.
-    - family: Gopaluni
-      given: R. Bhushan
-  citation-key: wang2023ReinforcementLearning
-  DOI: 10.48550/arXiv.2304.13223
-  event-title: IFAC World Congress
-  year: 2023
-  source: arXiv.org
-  title: Reinforcement learning with partial parametric model knowledge
-  type: paper-conference
-  URL: http://arxiv.org/abs/2304.13223
-
-- id: wang2024guiding
-  archive: https://arxiv.org/abs/2410.16821
-  author:
-    - family: Wang
-      given: Shuyuan
-    - family: Duan
-      given: Jingliang
-    - family: Lawrence
-      given: Nathan P
-    - family: Loewen
-      given: Philip D
-    - family: Forbes
-      given: Michael G
-    - family: Gopaluni
-      given: R Bhushan
-    - family: Zhang
-      given: Lixian
-  citation-key: wang2024guiding
-  container-title: >-
-    2024 IEEE/RSJ international conference on intelligent robots and systems
-    (IROS)
-  container-title-short: 2024 IEEERSJ Int. Conf. Intell. Robots Syst. IROS
-  DOI: 10.1109/IROS58592.2024.10802721
-  event-place: Abu Dhabi, United Arab Emirates
-  event-title: IROS
-  year: 2024
-  page: 11857–11863
-  publisher: IEEE
-  publisher-place: Abu Dhabi, United Arab Emirates
-  title: Guiding reinforcement learning with incomplete system dynamics
-  type: paper-conference
-  url: https://arxiv.org/abs/2410.16821
-  
-- id: lawrence2025Viewlearning
-  accessed:
-    - year: 2025
-      month: 3
-      day: 11
-  archive: https://arxiv.org/abs/2502.06996
-  author:
-    - family: Lawrence
-      given: Nathan P.
-    - family: Loewen
-      given: Philip D.
-    - family: Forbes
-      given: Michael G.
-    - family: Gopaluni
-      given: R. Bhushan
-    - family: Mesbah
-      given: Ali
-  citation-key: lawrence2025Viewlearning
-  container-title: Annual Reviews in Control
-  container-title-short: Annual Reviews in Control
-  DOI: 10.1016/j.arcontrol.2025.101027
-  year: 2025
-  number: arXiv:2502.06996
-  publisher: Annual Reviews in Control
-  source: arXiv.org
-  title: >-
-    A view on learning robust goal-conditioned value functions: Interplay
-    between RL and MPC
-  title-short: A view on learning robust goal-conditioned value functions
-  type: article-journal
-  URL: https://www.sciencedirect.com/science/article/pii/S1367578825000410
-
-- id: banker2025LocalGlobalLearning
-  accessed:
-    - year: 2025
-      month: 3
-      day: 21
-  archive: https://arxiv.org/abs/2503.13289
-  author:
-    - family: Banker
-      given: Thomas
-    - family: Lawrence
-      given: Nathan P.
-    - family: Mesbah
-      given: Ali
-  citation-key: banker2025LocalGlobalLearning
-  container-title: American Control Conference
-  container-title-short: American Control Conference
-  DOI: 10.48550/arXiv.2503.13289
-  year: 2025
-  number: arXiv:2503.13289
-  publisher: arXiv
-  source: arXiv.org
-  title: >-
-    Local-Global Learning of Interpretable Control Policies: The Interface
-    between MPC and Reinforcement Learning
-  title-short: Local-Global Learning of Interpretable Control Policies
-  type: paper-conference
-  URL: http://arxiv.org/abs/2503.13289
-
-
-- id: lawrence2025MPCriticplugandplay
-  accessed:
-    - year: 2025
-      month: 4
-      day: 3
-  archive: http://arxiv.org/abs/2504.01086
-  author:
-    - family: Lawrence
-      given: Nathan P.
-    - family: Banker
-      given: Thomas
-    - family: Mesbah
-      given: Ali
-  citation-key: lawrence2025MPCriticplugandplay
-  container-title: arXiv preprint
-  container-title-short: arXiv preprint
-  DOI: 10.48550/arXiv.2504.01086
-  year: 2025
-  number: arXiv:2504.01086
-  publisher: arXiv
-  source: arXiv.org
-  title: 'MPCritic: A plug-and-play MPC architecture for reinforcement learning'
-  title-short: MPCritic
-  type: paper-conference
-  URL: http://arxiv.org/abs/2504.01086
-
-- id: lawrence2025goalconditioned
-  accessed:
-    - year: 2025
-      month: 12
-      day: 3
-  archive: https://arxiv.org/abs/2512.06471
-  author:
-    - family: Lawrence
-      given: Nathan P.
-    - family: Mesbah
-      given: Ali
-  citation-key: lawrence2025goalconditioned
-  container-title: arXiv preprint
-  container-title-short: arXiv preprint
-  DOI: 10.48550/arXiv.2512.06471
-  year: 2025
-  number: arXiv:2512.06471
-  publisher: arXiv
-  source: arXiv.org
-  title: 'Why Goal-Conditioned Reinforcement Learning Works: Relation to Dual Control'
-  title-short: Goal-Conditioned Reinforcement Learning
+- id: lawrence2025goalconditionedreinforcementlearningworks
   type: manuscript
-  URL: https://arxiv.org/abs/2512.06471
-...
+  title: 'Why Goal-Conditioned Reinforcement Learning Works: Relation to Dual Control'
+  year: '2025'
+  author:
+  - family: Lawrence
+    given: Nathan P.
+  - family: Mesbah
+    given: Ali
+  container-title: arXiv (Submitted to IFAC World Congress)
+  archive: https://arxiv.org/abs/2512.06471
+- id: alabi2023automated
+  type: article-journal
+  title: Automated deep reinforcement learning for real-time scheduling strategy of
+    multi-energy system integrated with post-carbon and direct-air carbon captured
+    system
+  year: '2023'
+  author:
+  - family: Alabi
+    given: Tobi Michael
+  - family: Lawrence
+    given: Nathan
+  - family: Lu
+    given: Lin
+  - family: Yang
+    given: Zaiyue
+  - family: Gopaluni
+    given: Bhushan
+  container-title: Applied Energy
+  archive: https://arxiv.org/abs/2301.07768
+  volume: '333'
+  page: '120633'
+- id: mcclement2022meta
+  type: article-journal
+  title: 'Meta-reinforcement learning for the tuning of PI controllers: An offline
+    approach'
+  year: '2022'
+  author:
+  - family: McClement
+    given: Daniel
+  - family: Lawrence
+    given: Nathan
+  - family: Backström
+    given: Johan
+  - family: Loewen
+    given: Philip
+  - family: Forbes
+    given: Michael
+  - family: Gopaluni
+    given: Bhushan
+  container-title: Journal of Process Control
+  archive: https://arxiv.org/abs/2203.09661
+  volume: '118'
+  page: 139--152
+- id: spielberg2019SelfDriving
+  type: article-journal
+  title: 'Toward self-driving processes: A deep reinforcement learning approach to
+    control'
+  year: '2019'
+  author:
+  - family: Spielberg
+    given: Steven
+  - family: Tulsyan
+    given: Aditya
+  - family: Lawrence
+    given: Nathan
+  - family: Loewen
+    given: Philip
+  - family: Gopaluni
+    given: Bhushan
+  container-title: AIChE Journal
+  DOI: 10.1002/aic.16689
+  URL: https://doi.org/10.1002/aic.16689
+  archive: https://arxiv.org/abs/2004.05490
+  volume: '65'
+- id: lawrence2022DeepReinforcement
+  type: article-journal
+  title: 'Deep reinforcement learning with shallow controllers: An experimental application
+    to PID tuning'
+  year: '2022'
+  author:
+  - family: Lawrence
+    given: Nathan
+  - family: Forbes
+    given: Michael
+  - family: Loewen
+    given: Philip
+  - family: McClement
+    given: Daniel
+  - family: Backström
+    given: Johan
+  - family: Gopaluni
+    given: Bhushan
+  container-title: Control Engineering Practice
+  DOI: 10.1016/j.conengprac.2021.105046
+  URL: https://doi.org/10.1016/j.conengprac.2021.105046
+  archive: https://arxiv.org/abs/2111.07171
+  volume: '121'
+  page: '105046'
+- id: lawrence2024machine
+  type: article-journal
+  title: 'Machine learning for industrial sensing and control: A survey and practical
+    perspective'
+  year: '2024'
+  author:
+  - family: Lawrence
+    given: Nathan
+  - family: Damarla
+    given: Seshu Kumar
+  - family: Kim
+    given: Jong Woo
+  - family: Tulsyan
+    given: Aditya
+  - family: Amjad
+    given: Faraz
+  - family: Wang
+    given: Kai
+  - family: Chachuat
+    given: Benoit
+  - family: Lee
+    given: Jong Min
+  - family: Huang
+    given: Biao
+  - family: Gopaluni
+    given: Bhushan
+  container-title: Control Engineering Practice
+  DOI: 10.1016/j.conengprac.2024.105841
+  URL: https://doi.org/10.1016/j.conengprac.2024.105841
+  archive: https://arxiv.org/abs/2401.13836
+  volume: '145'
+  page: '105841'
+- id: lawrence2024stabilizing
+  type: article-journal
+  title: 'Stabilizing reinforcement learning control: A modular framework for optimizing
+    over all stable behavior'
+  year: '2024'
+  author:
+  - family: Lawrence
+    given: Nathan
+  - family: Loewen
+    given: Philip
+  - family: Wang
+    given: Shuyuan
+  - family: Forbes
+    given: Michael
+  - family: Gopaluni
+    given: Bhushan
+  container-title: Automatica
+  archive: https://arxiv.org/abs/2310.14098
+- id: lawrence2025Viewlearning
+  type: article-journal
+  title: 'A View on Learning Robust Goal-Conditioned Value Functions: Interplay between
+    RL and MPC'
+  year: '2025'
+  author:
+  - family: Lawrence
+    given: Nathan P.
+  - family: Loewen
+    given: Philip D.
+  - family: Forbes
+    given: Michael G.
+  - family: Gopaluni
+    given: R. Bhushan
+  - family: Mesbah
+    given: Ali
+  container-title: Annual Reviews in Control
+  DOI: 10.1016/j.arcontrol.2025.101027
+  URL: https://doi.org/10.1016/j.arcontrol.2025.101027
+  archive: http://arxiv.org/abs/2502.06996
+  note: 'Comment: 36 pages; preprint'
+- id: banker2025LocalGlobalLearning
+  type: paper-conference
+  title: 'Local-Global Learning of Interpretable Control Policies: The Interface between
+    MPC and Reinforcement Learning'
+  year: '2025'
+  author:
+  - family: Banker
+    given: Thomas
+  - family: Lawrence
+    given: Nathan P.
+  - family: Mesbah
+    given: Ali
+  event-title: American Control Conference
+  DOI: 10.48550/arXiv.2503.13289
+  URL: https://doi.org/10.48550/arXiv.2503.13289
+  archive: http://arxiv.org/abs/2503.13289
+  note: 'Comment: Preprint for ACC 2025 tutorial'
+- id: lawrence2020AlmostSurely
+  type: paper-conference
+  title: Almost surely stable deep dynamics
+  year: '2020'
+  author:
+  - family: Lawrence
+    given: Nathan
+  - family: Loewen
+    given: Philip
+  - family: Forbes
+    given: Michael
+  - family: Backström
+    given: Johan
+  - family: Gopaluni
+    given: Bhushan
+  event-title: NeurIPS
+  archive: https://arxiv.org/abs/2103.14722
+  note: Spotlight
+  volume: '33'
+- id: lawrence2020OptimalPID
+  type: paper-conference
+  title: Optimal PID and antiwindup control design as a reinforcement learning problem
+  year: '2020'
+  author:
+  - family: Lawrence
+    given: Nathan
+  - family: Stewart
+    given: Gregory
+  - family: Loewen
+    given: Philip
+  - family: Forbes
+    given: Michael
+  - family: Backström
+    given: Johan
+  - family: Gopaluni
+    given: Bhushan
+  event-title: IFAC World Congress
+  DOI: 10.1016/j.ifacol.2020.12.129
+  URL: https://doi.org/10.1016/j.ifacol.2020.12.129
+  archive: https://arxiv.org/abs/2005.04539
+  volume: '53'
+  page: 236--241
+- id: mcclement2021MetaReinforcementLearning
+  type: paper-conference
+  title: A meta-reinforcement learning approach to process control
+  year: '2021'
+  author:
+  - family: McClement
+    given: Daniel
+  - family: Lawrence
+    given: Nathan
+  - family: Loewen
+    given: Philip
+  - family: Forbes
+    given: Michael
+  - family: Backström
+    given: Johan
+  - family: Gopaluni
+    given: Bhushan
+  event-title: IFAC Symposium on Advanced Control of Chemical Processes
+  DOI: 10.1016/j.ifacol.2021.08.321
+  URL: https://doi.org/10.1016/j.ifacol.2021.08.321
+  archive: https://arxiv.org/abs/2103.14060
+  note: Keynote
+  volume: '54'
+  page: 685--692
+- id: gopaluni2020ModernMachine
+  type: paper-conference
+  title: 'Modern machine learning tools for monitoring and control of industrial processes:
+    A survey'
+  year: '2020'
+  author:
+  - family: Gopaluni
+    given: Bhushan
+  - family: Tulsyan
+    given: Aditya
+  - family: Chachuat
+    given: Benoit
+  - family: Huang
+    given: Biao
+  - family: Lee
+    given: Jong Min
+  - family: Amjad
+    given: Faraz
+  - family: Damarla
+    given: Seshu Kumar
+  - family: Kim
+    given: Jong Woo
+  - family: Lawrence
+    given: Nathan
+  event-title: IFAC World Congress
+  DOI: 10.1016/j.ifacol.2020.12.126
+  URL: https://doi.org/10.1016/j.ifacol.2020.12.126
+  archive: https://arxiv.org/abs/2209.11123
+  volume: '53'
+  page: 218--229
+- id: lawrence2020ReinforcementLearning
+  type: paper-conference
+  title: Reinforcement learning based design of linear fixed structure controllers
+  year: '2020'
+  author:
+  - family: Lawrence
+    given: Nathan
+  - family: Stewart
+    given: Gregory
+  - family: Loewen
+    given: Philip
+  - family: Forbes
+    given: Michael
+  - family: Backström
+    given: Johan
+  - family: Gopaluni
+    given: Bhushan
+  event-title: IFAC World Congress
+  DOI: 10.1016/j.ifacol.2020.12.127
+  URL: https://doi.org/10.1016/j.ifacol.2020.12.127
+  archive: https://arxiv.org/abs/2005.04537
+  volume: '53'
+  page: 230--235
+- id: lawrence2025MPCriticplugandplay
+  type: paper-conference
+  title: 'MPCritic: A Plug-and-Play MPC Architecture for Reinforcement Learning'
+  year: '2025'
+  author:
+  - family: Lawrence
+    given: Nathan P.
+  - family: Banker
+    given: Thomas
+  - family: Mesbah
+    given: Ali
+  event-title: Conference on Decision and Control
+  DOI: 10.48550/arXiv.2504.01086
+  URL: https://doi.org/10.48550/arXiv.2504.01086
+  archive: http://arxiv.org/abs/2504.01086
+- id: mcclement2022meta
+  type: paper-conference
+  title: Meta-reinforcement learning for adaptive control of second order systems
+  year: '2022'
+  author:
+  - family: McClement
+    given: Daniel
+  - family: Lawrence
+    given: Nathan
+  - family: Forbes
+    given: Michael
+  - family: Loewen
+    given: Philip
+  - family: Backström
+    given: Johan
+  - family: Gopaluni
+    given: Bhushan
+  event-title: IEEE International Symposium on Advanced Control of Industrial Processes
+  archive: https://arxiv.org/abs/2209.09301
+  page: 78--83
+- id: lawrence2023modular
+  type: paper-conference
+  title: A modular framework for stabilizing deep reinforcement learning control
+  year: '2023'
+  author:
+  - family: Lawrence
+    given: Nathan
+  - family: Loewen
+    given: Philip
+  - family: Wang
+    given: Shuyuan
+  - family: Forbes
+    given: Michael
+  - family: Gopaluni
+    given: Bhushan
+  event-title: IFAC World Congress
+  archive: https://arxiv.org/abs/2304.03422
+- id: wang2023reinforcement
+  type: paper-conference
+  title: Reinforcement learning with partial parametric model knowledge
+  year: '2023'
+  author:
+  - family: Wang
+    given: Shuyuan
+  - family: Loewen
+    given: Philip
+  - family: Lawrence
+    given: Nathan
+  - family: Forbes
+    given: Michael
+  - family: Gopaluni
+    given: Bhushan
+  event-title: IFAC World Congress
+  archive: https://arxiv.org/abs/2304.13223
+- id: lawrence2024hankel
+  type: paper-conference
+  title: Deep Hankel matrices with random elements
+  year: '2024'
+  author:
+  - family: Lawrence
+    given: Nathan
+  - family: Loewen
+    given: Philip
+  - family: Wang
+    given: Shuyuan
+  - family: Forbes
+    given: Michael
+  - family: Gopaluni
+    given: Bhushan
+  event-title: Learning for Dynamics \& Control Conference
+  archive: https://arxiv.org/abs/2404.15512
+- id: wang2024guiding
+  type: paper-conference
+  title: Guiding Reinforcement Learning with Incomplete System Dynamics
+  year: '2024'
+  author:
+  - family: Wang
+    given: Shuyuan
+  - family: Duan
+    given: Jingliang
+  - family: Lawrence
+    given: Nathan P
+  - family: Loewen
+    given: Philip D
+  - family: Forbes
+    given: Michael G
+  - family: Gopaluni
+    given: R Bhushan
+  - family: Zhang
+    given: Lixian
+  event-title: IROS
+  DOI: 10.1109/IROS58592.2024.10802721
+  URL: https://doi.org/10.1109/IROS58592.2024.10802721
+  page: 11857--11863
+- id: lawrence307ApplicationSimple
+  type: patent
+  title: Application of simple random search approach for reinforcement learning to
+    controller tuning parameters
+  year: '2022'
+  author:
+  - family: Lawrence
+    given: Nathan
+  - family: Loewen
+    given: Philip
+  - family: Gopaluni
+    given: Bhushan
+  - family: Stewart
+    given: Gregory
+  container-title: US Patent 11,307,562
+  URL: https://patents.google.com/patent/US11307562B2/en
+- id: lawrence673MethodSystem
+  type: patent
+  title: Method and system for directly tuning PID parameters using a simplified actor-critic
+    approach to reinforcement learning
+  year: '2022'
+  author:
+  - family: Lawrence
+    given: Nathan
+  - family: Loewen
+    given: Philip
+  - family: Gopaluni
+    given: Bhushan
+  - family: Stewart
+    given: Gregory
+  container-title: US Patent 11,500,337
+  URL: https://patents.google.com/patent/US11500337B2/en
+- id: mcclement653ProcessController
+  type: patent
+  title: Process controller with meta-reinforcement learning
+  year: '2022'
+  author:
+  - family: McClement
+    given: Daniel
+  - family: Lawrence
+    given: Nathan
+  - family: Loewen
+    given: Philip
+  - family: Gopaluni
+    given: Bhushan
+  - family: Forbes
+    given: Michael
+  - family: Backström
+    given: Johan
+  container-title: US Patent App. 17/653,175
+  URL: https://patents.google.com/patent/US20220291642A1/en
+- id: lawrence2016ConvexNonconvex
+  type: thesis
+  title: Convex and nonconvex optimization techniques for the constrained Fermat-Torricelli
+    problem
+  year: '2016'
+  author:
+  - family: Lawrence
+    given: Nathan
+  container-title: Portland State University
+  URL: https://doi.org/10.15760/honors.319
+- id: lawrence2023DeepReinforcement
+  type: thesis
+  title: Deep reinforcement learning agents for industrial control system design
+  year: '2023'
+  author:
+  - family: Lawrence
+    given: Nathan
+  container-title: The University of British Columbia
+  URL: https://dx.doi.org/10.14288/1.0430547

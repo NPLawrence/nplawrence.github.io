@@ -1,0 +1,17 @@
+~< extends "section.tex" >~
+
+~< block body >~
+    ~< for item in items >~
+	\subsection{<< item.type >>}
+	~< for d1 in item.details >~
+    ~< if d1.url >~
+      \cventry{<< d1.year >>}{\normalfont ``<<d1.title>>''}{}{}{}{ \href{<< d1.url >>}{<< d1.location >>}}
+    ~< else >~
+      \cventry{<< d1.year >>}{\normalfont ``<<d1.title>>''}{}{}{}{<< d1.location >>}
+  ~< endif >~
+	~< endfor >~
+    ~< endfor >~
+~< endblock body >~
+
+
+

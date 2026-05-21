@@ -1,0 +1,9 @@
+~< extends "section.tex" >~
+
+~< block body >~
+% \begin{itemize}
+~< for award in items >~
+	\cventry{<< award['year'] >>}{\href{<< award.url >>}{<< award.title >>}}{}{}{}{<< award.descr >>}
+~< endfor >~
+% \end{itemize}
+~< endblock body >~
