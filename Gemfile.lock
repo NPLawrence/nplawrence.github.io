@@ -285,6 +285,7 @@ GEM
 
 PLATFORMS
   universal-darwin-21
+  universal-darwin-25
 
 DEPENDENCIES
   github-pages

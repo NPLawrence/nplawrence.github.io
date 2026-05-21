@@ -151,6 +151,9 @@ exclude:
   - assets/js/plugins
   - assets/js/vendor
   - config
+  - cv/.venv
+  - cv/build
+  - cv/templates
   - gulpfile.js
   - log
   - node_modules
